@@ -1,0 +1,251 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "bien-être",
+  "santé"
+ ],
+ "metier": "réflexologue",
+ "besoin": [],
+ "ton": [
+  "doux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "patricia-forest-maquette",
+ "favorites_dans_la_bibliotheque": 22,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "fit-tri-maquette",
+   "client": "coach de triathlon diplômé (Michael Lecuivre, « Coach Mika ») : plans d'entraînement à distance, coaching 1-to-1, stages dans les Pyrénées, club FIT-TRI-TEAM, outils gratuits et blog",
+   "metier": "coach de triathlon",
+   "pourquoi": "Coach de triathlon : gris clair, bleu nuit et vert citron, capitales condensées, un seul système sur les douze pages, outils utiles.",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 82,
+   "en_ligne": "https://fit-tri-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "fit-tri-maquette/hero",
+     "note_section": 4,
+     "titre": "Des plans fondés sur la science, un coach qui vous connaît",
+     "capture": "medias/fit-tri-maquette/hero-p1440.jpg",
+     "video": "medias/fit-tri-maquette/hero-p720.mp4",
+     "fiche": "sections/fit-tri-maquette/hero.json",
+     "en_ligne": "https://fit-tri-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "tarifs",
+     "id": "fit-tri-maquette/band-nuit",
+     "note_section": 4,
+     "titre": "Les formulesTrois niveaux d’accompagnement, un même sérieux",
+     "capture": "medias/fit-tri-maquette/band-nuit-p1440.jpg",
+     "video": null,
+     "fiche": "sections/fit-tri-maquette/band-nuit.json",
+     "en_ligne": "https://fit-tri-maquette.vercel.app"
+    },
+    {
+     "page": "club",
+     "role": "ouverture",
+     "id": "fit-tri-maquette/club-page-intro",
+     "note_section": 4,
+     "titre": "Faites partie d’une équipe",
+     "capture": "medias/fit-tri-maquette/club-page-intro-p1440.jpg",
+     "video": "medias/fit-tri-maquette/club-page-intro-p720.mp4",
+     "fiche": "sections/fit-tri-maquette/club-page-intro.json",
+     "en_ligne": "https://fit-tri-maquette.vercel.app/club"
+    },
+    {
+     "page": "coaching",
+     "role": "tarifs",
+     "id": "fit-tri-maquette/coaching-section-2",
+     "note_section": 4,
+     "titre": "Les trois formulesChoisissez votre rythme",
+     "capture": "medias/fit-tri-maquette/coaching-section-2-p1440.jpg",
+     "video": null,
+     "fiche": "sections/fit-tri-maquette/coaching-section-2.json",
+     "en_ligne": "https://fit-tri-maquette.vercel.app/coaching"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "coolcanyoning-maquette",
+   "client": "guide de canyoning, via ferrata et escalade diplômé d'État (Yann) dans le Verdon, l'arrière-pays de Nice et le Haut-Var",
+   "metier": "guide de canyoning",
+   "pourquoi": "Canyoning : illustration plate, titres géants en capitales, altimètre discret dans la marge, outils pour choisir son canyon.",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 90,
+   "en_ligne": "https://coolcanyoning-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "coolcanyoning-maquette/heros",
+     "note_section": 4,
+     "titre": "Sauter.Glisser.Descendre.",
+     "capture": "medias/coolcanyoning-maquette/heros-p1440.jpg",
+     "video": "medias/coolcanyoning-maquette/heros-p720.mp4",
+     "fiche": "sections/coolcanyoning-maquette/heros.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "coolcanyoning-maquette/le-principe",
+     "note_section": 4,
+     "titre": "La descente · −12 m",
+     "capture": "medias/coolcanyoning-maquette/le-principe-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/le-principe.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app"
+    },
+    {
+     "page": "blog-canyon-cramassouri-tempete-alex",
+     "role": "ouverture",
+     "id": "coolcanyoning-maquette/blog-canyon-cramassouri-tempete-alex-ph",
+     "note_section": 3,
+     "titre": "Ouverture d'article",
+     "capture": "medias/coolcanyoning-maquette/blog-canyon-cramassouri-tempete-alex-ph-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/blog-canyon-cramassouri-tempete-alex-ph.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app/blog-canyon-cramassouri-tempete-alex"
+    },
+    {
+     "page": "blog",
+     "role": "articles",
+     "id": "coolcanyoning-maquette/blog-les-articles",
+     "note_section": 4,
+     "titre": "Les articles",
+     "capture": "medias/coolcanyoning-maquette/blog-les-articles-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/blog-les-articles.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app/blog"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "laure-polin-maquette",
+   "client": "sculptrice (ardoise taillée, bronze, pneu recyclé), atelier à Bagnolet, vente d'œuvres",
+   "metier": "sculptrice",
+   "pourquoi": "Sculptrice : sombre et minimal, œuvres en grand, Cormorant Garamond.",
+   "proche": [],
+   "lumiere": "sombre",
+   "note_maquette": 90,
+   "en_ligne": "https://laure-polin-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "laure-polin-maquette/hero",
+     "note_section": 5,
+     "titre": "Œuvres recomposées en poussière d'ardoise",
+     "capture": "medias/laure-polin-maquette/hero-p1440.jpg",
+     "video": "medias/laure-polin-maquette/hero-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/hero.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "laure-polin-maquette/manifeste",
+     "note_section": 4,
+     "titre": "Manifeste au portrait collant",
+     "capture": "medias/laure-polin-maquette/manifeste-p1440.jpg",
+     "video": "medias/laure-polin-maquette/manifeste-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/manifeste.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app"
+    },
+    {
+     "page": "oeuvre",
+     "role": "ouverture",
+     "id": "laure-polin-maquette/oeuvre-fiche-entree",
+     "note_section": 3,
+     "titre": "Entrée de la fiche d'œuvre",
+     "capture": "medias/laure-polin-maquette/oeuvre-fiche-entree-p1440.jpg",
+     "video": null,
+     "fiche": "sections/laure-polin-maquette/oeuvre-fiche-entree.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app/oeuvre"
+    },
+    {
+     "page": "salle",
+     "role": "galerie",
+     "id": "laure-polin-maquette/salle-salle-zone",
+     "note_section": 4,
+     "titre": "Salle horizontale à l'échelle",
+     "capture": "medias/laure-polin-maquette/salle-salle-zone-p1440.jpg",
+     "video": "medias/laure-polin-maquette/salle-salle-zone-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/salle-salle-zone.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app/salle"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "nolanis-maquette",
+   "client": "Agence de communication visuelle à Strasbourg : print et web, espaces publicitaires, publipostage, photo et vidéo, objets publicitaires, sauvegarde en ligne, formation photo",
+   "metier": "agence de communication visuelle",
+   "pourquoi": "Agence de communication : beige, éventail de couleurs, cartes nettes, sommaire des métiers.",
+   "proche": [],
+   "lumiere": "clair",
+   "note_maquette": 86,
+   "en_ligne": "https://nolanis-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "nolanis-maquette/debut",
+     "note_section": 5,
+     "titre": "Votre agence de communication visuelle à Strasbourg",
+     "capture": "medias/nolanis-maquette/debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "services",
+     "id": "nolanis-maquette/services",
+     "note_section": 4,
+     "titre": "La liasse des épreuves",
+     "capture": "medias/nolanis-maquette/services-p1440.jpg",
+     "video": "medias/nolanis-maquette/services-p720.mp4",
+     "fiche": "sections/nolanis-maquette/services.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "formations",
+     "role": "ouverture",
+     "id": "nolanis-maquette/formations-debut",
+     "note_section": 4,
+     "titre": "Choisir l’image juste",
+     "capture": "medias/nolanis-maquette/formations-debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/formations-debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/formations-debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/formations"
+    },
+    {
+     "page": "contact",
+     "role": "outil-interactif",
+     "id": "nolanis-maquette/contact-devis",
+     "note_section": 4,
+     "titre": "Votre demande, en trois étapes",
+     "capture": "medias/nolanis-maquette/contact-devis-p1440.jpg",
+     "video": "medias/nolanis-maquette/contact-devis-p720.mp4",
+     "fiche": "sections/nolanis-maquette/contact-devis.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/contact"
+    }
+   ]
+  }
+ ]
+}

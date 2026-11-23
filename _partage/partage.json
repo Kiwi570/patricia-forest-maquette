@@ -1,0 +1,188 @@
+{
+  "avertissements": [
+    "logo pris dans assets/images (logo.svg) : aucun logo dans donnees/images.json, vérifier que ce n'est pas celui du socle"
+  ],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "patricia-ouverture-1300.webp",
+      "poids": 75986,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "la-praticienne",
+      "langue": "fr",
+      "fichier": "assets/partage/la-praticienne-fr.jpg",
+      "gabarit": "droite",
+      "image": "patricia-seance-1280.webp",
+      "poids": 86284,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "la-reflexologie",
+      "langue": "fr",
+      "fichier": "assets/partage/la-reflexologie-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/reflexologie-sentier-1280.webp",
+      "poids": 76784,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "rendez-vous",
+      "langue": "fr",
+      "fichier": "assets/partage/rendez-vous-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/rdv-porte-1300.webp",
+      "poids": 93941,
+      "sujet": {
+        "x": 709,
+        "y": 0,
+        "l": 464,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "seances-et-tarifs",
+      "langue": "fr",
+      "fichier": "assets/partage/seances-et-tarifs-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/tarifs-serviettes-1300.webp",
+      "poids": 64317,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 573,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

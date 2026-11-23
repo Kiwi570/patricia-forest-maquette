@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rendez-vous : réflexologie à domicile dans le Var ou à La Crau · Patricia Forest</title>
+<meta name="description" content="Appelez le 06 47 96 99 86 ou envoyez une demande : séance chez vous, de Six-Fours à Hyères, ou à l&#39;Espace bien-être de La Coloc&#39; à La Crau.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://patricia-forest-maquette.vercel.app/rendez-vous">
+<style>:root{--fond:#F3ECE1;--texte:#24211D;--voile-fond:#233A2E;--ouverture-fond:#E8DCCB;--menu-fond:#F3ECE1}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/dm-serif-display-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F3ECE1">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patricia Forest">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Rendez-vous : réflexologie à domicile dans le Var ou à La Crau · Patricia Forest">
+<meta property="og:description" content="Appelez le 06 47 96 99 86 ou envoyez une demande : séance chez vous, de Six-Fours à Hyères, ou à l&#39;Espace bien-être de La Coloc&#39; à La Crau.">
+<meta property="og:url" content="https://patricia-forest-maquette.vercel.app/rendez-vous">
+<meta property="og:image" content="https://patricia-forest-maquette.vercel.app/assets/partage/rendez-vous-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Prendre rendez-vous avec Patricia Forest, réflexologue">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Patricia Forest, réflexologie plantaire","url":"https://patricia-forest-maquette.vercel.app/","telephone":"+33647969986","email":"patricia-forest@orange.fr","description":"Réflexologie plantaire à domicile dans onze communes du Var, de Six-Fours à Toulon et Hyères, et au cabinet de La Coloc' à La Crau, sur rendez-vous.","address":{"@type":"PostalAddress","streetAddress":"6 impasse des Palmiers","postalCode":"83260","addressLocality":"La Crau","addressCountry":"FR"},"areaServed":"Var, de Six-Fours-les-Plages à Toulon et Hyères","sameAs":["https://www.facebook.com/ReflexologiePlantaireVar/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><svg class="medaillon medaillon--voile" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+</g></svg><span data-voile-libelle>Rendez-vous</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="medaillon medaillon--intro" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-ouverture-objet>
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+<circle class="point-pied" style="--i:0" cx="150" cy="70" r="9"/><circle class="point-pied" style="--i:1" cx="116" cy="158" r="9"/><circle class="point-pied" style="--i:2" cx="112" cy="204" r="9"/><circle class="point-pied" style="--i:3" cx="106" cy="276" r="9"/><circle class="point-pied" style="--i:4" cx="100" cy="404" r="9"/>
+</g></svg>
+  <p class="ouverture-nom">Patricia Forest</p>
+  <p class="ouverture-ligne">Réflexologie plantaire · Var</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Patricia Forest, réflexologie plantaire, accueil" data-libelle="Accueil">
+      <svg class="medaillon medaillon--logo" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+</g></svg><span class="entete-nom"><span>Patricia Forest</span><small>Réflexologie plantaire</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/la-reflexologie" data-libelle="La réflexologie">La réflexologie</a></li><li><a href="/la-praticienne" data-libelle="La praticienne">La praticienne</a></li><li><a href="/seances-et-tarifs" data-libelle="Séances et tarifs">Séances et tarifs</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous" aria-current="page">Rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/la-reflexologie" class="menu-lien" data-libelle="La réflexologie">La réflexologie</a></li><li style="--i:2"><a href="/la-praticienne" class="menu-lien" data-libelle="La praticienne">La praticienne</a></li><li style="--i:3"><a href="/seances-et-tarifs" class="menu-lien" data-libelle="Séances et tarifs">Séances et tarifs</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Rendez-vous" aria-current="page">Rendez-vous</a></li></ul>
+  <p class="menu-actions"><a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Prendre rendez-vous</a> <a class="bouton bouton--contour" href="tel:+33647969986">Appeler 06 47 96 99 86</a></p>
+  <p class="menu-lieux">À domicile dans le Var · Cabinet à La Crau</p>
+</div>
+<main id="contenu" tabindex="-1">
+<svg class="symboles" width="0" height="0" aria-hidden="true" focusable="false"><defs>
+<symbol id="pied-trait" viewBox="20 30 170 432"><path d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" pathLength="1"/></symbol>
+</defs></svg>
+<section class="ouv-rdv" id="debut">
+  <div class="ouv-rdv-texte">
+    <p class="sur" data-anime="gsap">Rendez-vous</p>
+    <h1 class="ouv-titre" data-anime="gsap"><span class="hl"><span class="hl-in">On prend</span></span> <span class="hl"><em class="hl-in">rendez-vous ?</em></span></h1>
+    <div data-anime="gsap">
+      <p class="masque-ecran-bas">Le plus simple : un appel. Ou une demande en quatre petites étapes, ci-dessous.</p>
+      <p class="rdv-tel"><a href="tel:+33647969986">06 47 96 99 86</a></p>
+      <p class="actions"><a class="bouton" href="#demande" data-action-principale data-sans-transition>Faire une demande</a></p>
+      <p class="info-cle" data-info-cle>Sur rendez-vous, du lundi au samedi</p>
+    </div>
+  </div>
+  <figure class="media ouv-rdv-photo" data-grok data-iris-centre data-anime="gsap" data-fx="parallaxe" data-fx-force="6" style="--cadrage:55% 55%">
+  <picture>
+    <img src="/assets/images/grok/rdv-porte-1300.webp" srcset="/assets/images/grok/rdv-porte-640.webp 640w, /assets/images/grok/rdv-porte-960.webp 960w, /assets/images/grok/rdv-porte-1300.webp 1300w" sizes="(max-width: 760px) 92vw, 38vw" alt="Porte d&#39;entrée provençale entrouverte, seuil en terre cuite au soleil, pots de romarin" width="1300" height="1625" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<section class="section demande theme-argile" id="demande">
+  <div class="conteneur demande-grille">
+    <form class="demande-form" data-formulaire data-etapes data-tarifs="{&quot;domicile&quot;:{&quot;s30&quot;:35,&quot;s60&quot;:60,&quot;forfait&quot;:250},&quot;crau&quot;:{&quot;s30&quot;:25,&quot;s60&quot;:50,&quot;forfait&quot;:null}}">
+      <p class="sur">Demande en ligne</p>
+      <h2 data-anime="lignes">Votre demande</h2>
+      <p class="demande-annonce" data-anime>4 étapes : le lieu, la séance, vos disponibilités, vos coordonnées.</p>
+      <ol class="etapes-progression" aria-hidden="true" data-anime="cascade"><li class="actif"><span>1</span></li><li><span>2</span></li><li><span>3</span></li><li><span>4</span></li></ol>
+      <div class="etapes-cadre" data-etapes-cadre>
+        <fieldset class="etape-form" data-etape="1">
+          <legend><span class="etape-compte">Étape 1 sur 4</span> Où souhaitez-vous la séance ?</legend>
+          <div class="choix-grille">
+            <label class="choix">
+  <input type="radio" name="lieu" value="domicile" checked required>
+  <span class="choix-carte"><span class="choix-titre">Chez moi</span><span class="choix-detail">Dans l&#39;une des onze communes, de Six-Fours à Hyères</span></span>
+</label>
+            <label class="choix">
+  <input type="radio" name="lieu" value="crau" required>
+  <span class="choix-carte"><span class="choix-titre">À La Crau</span><span class="choix-detail">Espace bien-être de La Coloc&#39;</span></span>
+</label>
+            <label class="choix">
+  <input type="radio" name="lieu" value="bon" required>
+  <span class="choix-carte"><span class="choix-titre">Un bon cadeau</span><span class="choix-detail">Une séance à offrir, valable 6 mois</span></span>
+</label>
+            <label class="choix">
+  <input type="radio" name="lieu" value="groupe" required>
+  <span class="choix-carte"><span class="choix-titre">Un atelier ou une entreprise</span><span class="choix-detail">Sur devis</span></span>
+</label>
+          </div>
+          <div class="champ" data-si-lieu="domicile"><label for="rdv-commune">Votre commune</label><input id="rdv-commune" name="commune" autocomplete="address-level2"></div>
+        </fieldset>
+        <fieldset class="etape-form" data-etape="2" hidden>
+          <legend><span class="etape-compte">Étape 2 sur 4</span> Quelle séance ?</legend>
+          <div class="choix-grille">
+            <label class="choix">
+  <input type="radio" name="seance" value="s30" required>
+  <span class="choix-carte"><span class="choix-titre">30 minutes</span></span>
+</label>
+            <label class="choix">
+  <input type="radio" name="seance" value="s60" checked required>
+  <span class="choix-carte"><span class="choix-titre">Une heure</span></span>
+</label>
+            <label class="choix">
+  <input type="radio" name="seance" value="forfait" required>
+  <span class="choix-carte"><span class="choix-titre">Forfait 5 séances</span></span>
+</label>
+          </div>
+          <label class="case"><input type="checkbox" name="premiere" value="oui"> <span>C&#39;est ma première séance</span></label>
+        </fieldset>
+        <fieldset class="etape-form" data-etape="3" hidden>
+          <legend><span class="etape-compte">Étape 3 sur 4</span> Quand êtes-vous disponible ?</legend>
+          <p class="sous-legende" id="jours-titre">Jours qui vous conviennent</p>
+          <div class="jetons" role="group" aria-labelledby="jours-titre"><label class="jeton"><input type="checkbox" name="jours" value="lundi"><span>Lun</span></label><label class="jeton"><input type="checkbox" name="jours" value="mardi"><span>Mar</span></label><label class="jeton"><input type="checkbox" name="jours" value="mercredi"><span>Mer</span></label><label class="jeton"><input type="checkbox" name="jours" value="jeudi"><span>Jeu</span></label><label class="jeton"><input type="checkbox" name="jours" value="vendredi"><span>Ven</span></label><label class="jeton"><input type="checkbox" name="jours" value="samedi"><span>Sam</span></label></div>
+          <p class="sous-legende" id="moment-titre">Moment de la journée</p>
+          <div class="jetons" role="group" aria-labelledby="moment-titre"><label class="jeton"><input type="checkbox" name="moment" value="matin"><span>Matin</span></label><label class="jeton"><input type="checkbox" name="moment" value="apresMidi"><span>Après-midi</span></label><label class="jeton"><input type="checkbox" name="moment" value="soir"><span>Fin de journée</span></label></div>
+        </fieldset>
+        <fieldset class="etape-form" data-etape="4" hidden>
+          <legend><span class="etape-compte">Étape 4 sur 4</span> Vos coordonnées</legend>
+          <div class="champ"><label for="rdv-nom">Nom et prénom</label><input id="rdv-nom" name="nom" autocomplete="name" required></div>
+          <div class="champ"><label for="rdv-tel">Téléphone</label><input id="rdv-tel" name="tel" type="tel" autocomplete="tel" required></div>
+          <div class="champ"><label for="rdv-email">E-mail (facultatif)</label><input id="rdv-email" name="email" type="email" autocomplete="email"></div>
+          <div class="champ"><label for="rdv-message">Un mot pour Patricia (facultatif)</label><textarea id="rdv-message" name="message" rows="3"></textarea></div>
+          <p class="mention-donnees">Vos coordonnées servent seulement à organiser le rendez-vous. Politique de confidentialité (à compléter).</p>
+        </fieldset>
+      </div>
+      <div class="etapes-boutons">
+        <button type="button" class="bouton bouton--contour" data-etape-precedent hidden>Retour</button>
+        <button type="button" class="bouton" data-etape-suivant>Continuer</button>
+        <button type="submit" class="bouton" data-etape-envoyer hidden>Envoyer la demande</button>
+      </div>
+      <p data-message-envoi data-texte="Merci ! Maquette : rien n&#39;a été envoyé. Pour un vrai rendez-vous, appelez le 06 47 96 99 86." hidden tabindex="-1"></p>
+    </form>
+    <aside class="recap" aria-label="Votre demande" data-anime>
+      <p class="recap-titre">Votre demande</p>
+      <dl class="recap-liste" data-recap>
+        <div><dt>Lieu</dt><dd data-recap-lieu>Chez moi</dd></div>
+        <div><dt>Séance</dt><dd data-recap-seance>Une heure</dd></div>
+        <div><dt>Disponibilités</dt><dd data-recap-quand>—</dd></div>
+        <div><dt>Tarif</dt><dd data-recap-prix>60 €</dd></div>
+      </dl>
+      <p class="recap-tel">Appeler&nbsp;: <a href="tel:+33647969986">06 47 96 99 86</a></p>
+    </aside>
+  </div>
+</section>
+<section class="section zone" id="zone">
+  <div class="conteneur zone-grille">
+    <div class="zone-texte">
+      <p class="sur">Où</p>
+      <h2 data-anime="lignes">La zone et le cabinet</h2>
+      <p data-anime>Je me déplace dans onze communes varoises, de Six-Fours à Toulon et Hyères. Et je vous reçois à l&#39;Espace bien-être de La Coloc&#39;, à La Crau.</p>
+      <ul class="zone-legende" data-anime="cascade">
+        <li><span class="pastille pastille--zone" aria-hidden="true"></span><span><strong>À domicile dans le Var</strong> · Sur rendez-vous, du lundi au samedi</span></li>
+        <li><span class="pastille pastille--crau" aria-hidden="true"></span><span><strong>Cabinet à La Crau</strong> · Espace bien-être de La Coloc&#39;, 6 impasse des Palmiers, 83260 La Crau</span></li>
+      </ul>
+    </div>
+    <figure class="zone-carte" data-visuel>
+      <svg class="littoral " viewBox="10 110 780 280" role="img" aria-label="Plan du littoral varois : la zone des séances à domicile, de Six-Fours à Hyères, et le cabinet de La Crau" data-effet="littoral">
+<defs>
+<clipPath id="terre-rendez-vous"><path d="M-10 205C-4 206 16 202 24 214C32 226 29 262 40 277C51 292 73 299 90 306C107 313 127 323 143 321C159 319 175 300 186 292C197 284 198 275 211 272C224 269 246 277 262 276C278 275 303 271 306 268C309 265 289 259 280 256C271 253 264 253 254 252C244 251 230 251 220 250C210 249 200 250 194 246C188 242 181 234 186 228C191 222 209 216 222 212C235 208 251 203 263 205C275 207 283 216 294 222C305 228 318 238 331 243C344 248 358 250 372 252C386 254 402 254 417 256C432 258 446 262 460 262C474 262 489 259 503 258C517 257 534 257 545 256C556 255 565 246 571 252C577 258 580 278 580 290C580 302 578 313 574 322C570 331 552 336 554 342C556 348 574 353 586 356C598 359 611 361 623 360C635 359 651 355 660 352C669 349 679 344 678 340C677 336 659 331 652 326C645 321 640 318 636 312C632 306 632 297 630 290C628 283 618 275 623 268C628 261 646 253 660 248C674 243 692 239 709 236C726 233 743 230 760 228C777 226 802 225 810 224L810 0L-10 0Z"/></clipPath>
+<pattern id="houle-rendez-vous" width="18" height="10" patternUnits="userSpaceOnUse"><path d="M0 6C4.5 2 9 2 13.5 6S18 8 18 6" fill="none" class="houle"/></pattern>
+</defs>
+<rect class="mer" x="0" y="100" width="800" height="300"/>
+<rect x="0" y="100" width="800" height="300" fill="url(#houle-rendez-vous)"/>
+<path class="terre" d="M-10 205C-4 206 16 202 24 214C32 226 29 262 40 277C51 292 73 299 90 306C107 313 127 323 143 321C159 319 175 300 186 292C197 284 198 275 211 272C224 269 246 277 262 276C278 275 303 271 306 268C309 265 289 259 280 256C271 253 264 253 254 252C244 251 230 251 220 250C210 249 200 250 194 246C188 242 181 234 186 228C191 222 209 216 222 212C235 208 251 203 263 205C275 207 283 216 294 222C305 228 318 238 331 243C344 248 358 250 372 252C386 254 402 254 417 256C432 258 446 262 460 262C474 262 489 259 503 258C517 257 534 257 545 256C556 255 565 246 571 252C577 258 580 278 580 290C580 302 578 313 574 322C570 331 552 336 554 342C556 348 574 353 586 356C598 359 611 361 623 360C635 359 651 355 660 352C669 349 679 344 678 340C677 336 659 331 652 326C645 321 640 318 636 312C632 306 632 297 630 290C628 283 618 275 623 268C628 261 646 253 660 248C674 243 692 239 709 236C726 233 743 230 760 228C777 226 802 225 810 224L810 0L-10 0Z"/>
+<g clip-path="url(#terre-rendez-vous)"><path class="zone-domicile" data-littoral-zone d="M70 172C170 150 300 140 420 146C520 150 620 160 700 176L712 380L56 380Z"/></g>
+<path class="cote" d="M-10 205C-4 206 16 202 24 214C32 226 29 262 40 277C51 292 73 299 90 306C107 313 127 323 143 321C159 319 175 300 186 292C197 284 198 275 211 272C224 269 246 277 262 276C278 275 303 271 306 268C309 265 289 259 280 256C271 253 264 253 254 252C244 251 230 251 220 250C210 249 200 250 194 246C188 242 181 234 186 228C191 222 209 216 222 212C235 208 251 203 263 205C275 207 283 216 294 222C305 228 318 238 331 243C344 248 358 250 372 252C386 254 402 254 417 256C432 258 446 262 460 262C474 262 489 259 503 258C517 257 534 257 545 256C556 255 565 246 571 252C577 258 580 278 580 290C580 302 578 313 574 322C570 331 552 336 554 342C556 348 574 353 586 356C598 359 611 361 623 360C635 359 651 355 660 352C669 349 679 344 678 340C677 336 659 331 652 326C645 321 640 318 636 312C632 306 632 297 630 290C628 283 618 275 623 268C628 261 646 253 660 248C674 243 692 239 709 236C726 233 743 230 760 228C777 226 802 225 810 224" pathLength="1" data-littoral-cote/>
+<g class="communes" data-littoral-communes>
+<g class="commune" style="--i:0"><circle cx="100" cy="262" r="5"/><text x="112" y="246">Six-Fours</text></g>
+<g class="commune" style="--i:1"><circle cx="262" cy="190" r="5"/><text x="262" y="176" text-anchor="middle">Toulon</text></g>
+<g class="commune" style="--i:2"><circle cx="604" cy="206" r="5"/><text x="616" y="210">Hyères</text></g>
+</g>
+<g class="epingle" data-littoral-epingle transform="translate(506 166)"><g class="epingle-corps"><path d="M0 0C-12 -16 -18 -26 -18 -36A18 18 0 1 1 18 -36C18 -26 12 -16 0 0Z"/><circle cx="0" cy="-36" r="6.5" class="epingle-trou"/></g><text x="24" y="-4">La Crau</text></g>
+<text class="mer-nom" x="300" y="336">Mer Méditerranée</text>
+</svg>
+      <figcaption>Plan simplifié</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="section direct theme-pin" id="contact">
+  <div class="conteneur">
+    <p class="sur">En direct</p>
+    <h2 data-anime="lignes">Appeler, écrire</h2>
+    <ul class="direct-grille" data-anime="cascade">
+      <li class="direct-carte"><p class="direct-etiquette">Par téléphone</p><a class="direct-valeur" href="tel:+33647969986">06 47 96 99 86</a></li>
+      <li class="direct-carte"><p class="direct-etiquette">Par e-mail</p><a class="direct-valeur direct-email" href="mailto:patricia-forest@orange.fr?subject=Je%20souhaite%20prendre%20rendez-vous">patricia-forest@orange.fr</a></li>
+      <li class="direct-carte"><p class="direct-etiquette">Sur Facebook</p><a class="direct-valeur" href="https://www.facebook.com/ReflexologiePlantaireVar/" target="_blank" rel="noopener">ReflexologiePlantaireVar</a></li>
+    </ul>
+    <p class="faq-medical">La réflexologie est une technique de bien-être et de gestion du stress : elle ne remplace ni l&#39;avis d&#39;un médecin, ni un traitement en cours.</p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-signature">
+      <svg class="medaillon medaillon--pied" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+</g></svg>
+      <p class="pied-nom">Patricia Forest</p>
+      <p>Réflexologie plantaire · À domicile dans le Var · Cabinet à La Crau</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <ul>
+        <li><a href="tel:+33647969986">06 47 96 99 86</a></li>
+        <li><a href="mailto:patricia-forest@orange.fr">patricia-forest@orange.fr</a></li>
+        <li><a href="https://www.facebook.com/ReflexologiePlantaireVar/" target="_blank" rel="noopener">Retrouvez-moi sur Facebook</a></li>
+      </ul>
+      <p class="pied-adresse">Espace bien-être de La Coloc&#39;, 6 impasse des Palmiers, 83260 La Crau</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/la-reflexologie" data-libelle="La réflexologie">La réflexologie</a></li><li><a href="/la-praticienne" data-libelle="La praticienne">La praticienne</a></li><li><a href="/seances-et-tarifs" data-libelle="Séances et tarifs">Séances et tarifs</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous" aria-current="page">Rendez-vous</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales (à compléter) · Politique de confidentialité (à compléter)</p>
+    <p>Maquette de présentation : les formulaires sont simulés, rien n&#39;est envoyé.</p>
+    <p>© Patricia Forest</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33647969986">Appeler</a>
+  <a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Rendez-vous</a>
+</div>
+</body>
+</html>

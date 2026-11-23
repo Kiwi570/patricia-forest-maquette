@@ -1,0 +1,838 @@
+{
+  "patricia-ouverture": {
+    "nom": "patricia-ouverture",
+    "source": "recu/praticienne.jpg",
+    "role": "ouverture",
+    "alt": "Patricia Forest en séance de réflexologie plantaire, les pieds de la personne posés sur une serviette blanche",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d6c11b942782991a",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 540,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,08 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "patricia-ouverture-640.webp",
+      "patricia-ouverture-960.webp",
+      "patricia-ouverture-1300.webp"
+    ],
+    "poids": {
+      "patricia-ouverture-640.webp": 53552,
+      "patricia-ouverture-960.webp": 88086,
+      "patricia-ouverture-1300.webp": 122260
+    },
+    "media": "c.media({ nom: 'patricia-ouverture', alt: \"Patricia Forest en séance de réflexologie plantaire, les pieds de la personne posés sur une serviette blanche\", cadrage: '50% 40%', sizes: '100vw', priorite: true })"
+  },
+  "patricia-seance": {
+    "nom": "patricia-seance",
+    "source": "recu/praticienne.jpg",
+    "role": "ouverture",
+    "alt": "Patricia Forest en séance de réflexologie plantaire, assise face aux pieds de la personne qu'elle reçoit",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7a14a6e244d1305a",
+    "ratio": "3:2",
+    "largeurs": [
+      800,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 40%"
+    },
+    "cadrage": "55% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "patricia-seance-800.webp",
+      "patricia-seance-1280.webp",
+      "patricia-seance-1920.webp",
+      "patricia-seance-mobile-640.webp",
+      "patricia-seance-mobile-1080.webp"
+    ],
+    "poids": {
+      "patricia-seance-800.webp": 49324,
+      "patricia-seance-1280.webp": 85716,
+      "patricia-seance-1920.webp": 139112,
+      "patricia-seance-mobile-640.webp": 53940,
+      "patricia-seance-mobile-1080.webp": 101236
+    },
+    "media": "c.media({ nom: 'patricia-seance', alt: \"Patricia Forest en séance de réflexologie plantaire, assise face aux pieds de la personne qu'elle reçoit\", cadrage: '55% 45%', cadrageMobile: '50% 40%', sizes: '100vw', priorite: true })"
+  },
+  "grok/accueil-salon": {
+    "nom": "grok/accueil-salon",
+    "source": "recu/grok/accueil-salon.jpg",
+    "role": "carte-service",
+    "alt": "Chambre provençale au matin : lit aux draps blancs, coussin roulé, rais de soleil des persiennes sur les tomettes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e75828a5933edefe",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "57% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 96.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 257,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-salon-480.webp",
+      "grok/accueil-salon-800.webp",
+      "grok/accueil-salon-1100.webp"
+    ],
+    "poids": {
+      "grok/accueil-salon-480.webp": 40194,
+      "grok/accueil-salon-800.webp": 93354,
+      "grok/accueil-salon-1100.webp": 141424
+    },
+    "media": "c.media({ nom: 'grok/accueil-salon', alt: \"Chambre provençale au matin : lit aux draps blancs, coussin roulé, rais de soleil des persiennes sur les tomettes\", cadrage: '57% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/seance-connaissance": {
+    "nom": "grok/seance-connaissance",
+    "source": "recu/grok/seance-connaissance.jpg",
+    "role": "carte-service",
+    "alt": "Tasse de tisane, carnet fermé et crayon sur une petite table près d'une fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "441070ae23cab3dc",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 99,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/seance-connaissance-480.webp",
+      "grok/seance-connaissance-800.webp",
+      "grok/seance-connaissance-1100.webp"
+    ],
+    "poids": {
+      "grok/seance-connaissance-480.webp": 33004,
+      "grok/seance-connaissance-800.webp": 70248,
+      "grok/seance-connaissance-1100.webp": 105278
+    },
+    "media": "c.media({ nom: 'grok/seance-connaissance', alt: \"Tasse de tisane, carnet fermé et crayon sur une petite table près d'une fenêtre\", cadrage: '48% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/seance-pieds": {
+    "nom": "grok/seance-pieds",
+    "source": "recu/grok/seance-pieds.jpg",
+    "role": "carte-service",
+    "alt": "Deux pieds nus posés côte à côte sur une serviette blanche, les jambes sous une couverture de lin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "2661ecb2fa0a1633",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 119,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/seance-pieds-480.webp",
+      "grok/seance-pieds-800.webp",
+      "grok/seance-pieds-1100.webp"
+    ],
+    "poids": {
+      "grok/seance-pieds-480.webp": 23354,
+      "grok/seance-pieds-800.webp": 47082,
+      "grok/seance-pieds-1100.webp": 70382
+    },
+    "media": "c.media({ nom: 'grok/seance-pieds', alt: \"Deux pieds nus posés côte à côte sur une serviette blanche, les jambes sous une couverture de lin\", cadrage: '47% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/accueil-pins": {
+    "nom": "grok/accueil-pins",
+    "source": "recu/grok/accueil-pins.jpg",
+    "role": "section-fond",
+    "alt": "Pins parasols au-dessus d'une mer calme, sentier de sable dans la garrigue, lumière du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "063b69a8d1d3ad23",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920,
+      2560
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 54%"
+    },
+    "cadrage": "46% 66%",
+    "sujet": {
+      "x": 0,
+      "y": 8.9,
+      "l": 100,
+      "h": 91.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.64,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 20,
+      "width": 1800,
+      "height": 1013,
+      "source": [
+        1800,
+        1208
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,42 fois (source de 1800 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-pins-640.webp",
+      "grok/accueil-pins-1280.webp",
+      "grok/accueil-pins-1920.webp",
+      "grok/accueil-pins-2560.webp",
+      "grok/accueil-pins-mobile-640.webp",
+      "grok/accueil-pins-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-pins-640.webp": 35842,
+      "grok/accueil-pins-1280.webp": 110720,
+      "grok/accueil-pins-1920.webp": 174086,
+      "grok/accueil-pins-2560.webp": 243210,
+      "grok/accueil-pins-mobile-640.webp": 127880,
+      "grok/accueil-pins-mobile-1080.webp": 235184
+    },
+    "media": "c.media({ nom: 'grok/accueil-pins', alt: \"Pins parasols au-dessus d'une mer calme, sentier de sable dans la garrigue, lumière du matin\", cadrage: '46% 66%', cadrageMobile: '50% 54%', sizes: '100vw' })"
+  },
+  "grok/reflexologie-sentier": {
+    "nom": "grok/reflexologie-sentier",
+    "source": "recu/grok/reflexologie-sentier.jpg",
+    "role": "ouverture",
+    "alt": "Pieds nus sur un sentier de sable et d'aiguilles de pin, au soleil du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "75ad1a576b1841a0",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "49% 42%"
+    },
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 25,
+      "width": 1800,
+      "height": 1013,
+      "source": [
+        1800,
+        1208
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1800 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/reflexologie-sentier-640.webp",
+      "grok/reflexologie-sentier-1280.webp",
+      "grok/reflexologie-sentier-1920.webp",
+      "grok/reflexologie-sentier-mobile-640.webp",
+      "grok/reflexologie-sentier-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/reflexologie-sentier-640.webp": 41946,
+      "grok/reflexologie-sentier-1280.webp": 105530,
+      "grok/reflexologie-sentier-1920.webp": 163656,
+      "grok/reflexologie-sentier-mobile-640.webp": 75116,
+      "grok/reflexologie-sentier-mobile-1080.webp": 144878
+    },
+    "media": "c.media({ nom: 'grok/reflexologie-sentier', alt: \"Pieds nus sur un sentier de sable et d'aiguilles de pin, au soleil du matin\", cadrage: '48% 50%', cadrageMobile: '49% 42%', sizes: '100vw', priorite: true })"
+  },
+  "grok/praticienne-racines": {
+    "nom": "grok/praticienne-racines",
+    "source": "recu/grok/praticienne-racines.jpg",
+    "role": "vignette",
+    "alt": "Racines d'un vieil olivier agrippées à la terre rouge et au calcaire",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "0752426f63d8186e",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "49% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1611,
+      "height": 1208,
+      "source": [
+        1800,
+        1208
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/praticienne-racines-640.webp",
+      "grok/praticienne-racines-960.webp",
+      "grok/praticienne-racines-1280.webp"
+    ],
+    "poids": {
+      "grok/praticienne-racines-640.webp": 95120,
+      "grok/praticienne-racines-960.webp": 183104,
+      "grok/praticienne-racines-1280.webp": 264126
+    },
+    "media": "c.media({ nom: 'grok/praticienne-racines', alt: \"Racines d'un vieil olivier agrippées à la terre rouge et au calcaire\", cadrage: '49% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/tarifs-serviettes": {
+    "nom": "grok/tarifs-serviettes",
+    "source": "recu/grok/tarifs-serviettes.jpg",
+    "role": "ouverture",
+    "alt": "Pile de serviettes blanches sur un tabouret en olivier, bol de galets, rais de soleil sur un mur blanc",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "30aac8759f5c6b0f",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "43% 68%",
+    "sujet": {
+      "x": 0,
+      "y": 6.9,
+      "l": 95.5,
+      "h": 89.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.71,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 317,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/tarifs-serviettes-640.webp",
+      "grok/tarifs-serviettes-960.webp",
+      "grok/tarifs-serviettes-1300.webp"
+    ],
+    "poids": {
+      "grok/tarifs-serviettes-640.webp": 45186,
+      "grok/tarifs-serviettes-960.webp": 87962,
+      "grok/tarifs-serviettes-1300.webp": 135610
+    },
+    "media": "c.media({ nom: 'grok/tarifs-serviettes', alt: \"Pile de serviettes blanches sur un tabouret en olivier, bol de galets, rais de soleil sur un mur blanc\", cadrage: '43% 68%', sizes: '100vw', priorite: true })"
+  },
+  "grok/rdv-porte": {
+    "nom": "grok/rdv-porte",
+    "source": "recu/grok/rdv-porte.jpg",
+    "role": "ouverture",
+    "alt": "Porte d'entrée provençale entrouverte, seuil en terre cuite au soleil, pots de romarin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f17b2b590b295269",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "64% 54%",
+    "sujet": {
+      "x": 18.2,
+      "y": 0,
+      "l": 77.3,
+      "h": 96.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 317,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/rdv-porte-640.webp",
+      "grok/rdv-porte-960.webp",
+      "grok/rdv-porte-1300.webp"
+    ],
+    "poids": {
+      "grok/rdv-porte-640.webp": 103708,
+      "grok/rdv-porte-960.webp": 175322,
+      "grok/rdv-porte-1300.webp": 247342
+    },
+    "media": "c.media({ nom: 'grok/rdv-porte', alt: \"Porte d'entrée provençale entrouverte, seuil en terre cuite au soleil, pots de romarin\", cadrage: '64% 54%', sizes: '100vw', priorite: true })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Traces de pas nus dans le sable mouillé qui s'arrêtent au bord de l'eau",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e0204e7506327457",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "45% 29%"
+    },
+    "cadrage": "82% 24%",
+    "sujet": {
+      "x": 40.6,
+      "y": 2.5,
+      "l": 59.4,
+      "h": 97.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.77,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.63,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 139,
+      "width": 1800,
+      "height": 1013,
+      "source": [
+        1800,
+        1208
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1800 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/page-404-640.webp",
+      "grok/page-404-1280.webp",
+      "grok/page-404-1920.webp",
+      "grok/page-404-mobile-640.webp",
+      "grok/page-404-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/page-404-640.webp": 25556,
+      "grok/page-404-1280.webp": 87188,
+      "grok/page-404-1920.webp": 143222,
+      "grok/page-404-mobile-640.webp": 87398,
+      "grok/page-404-mobile-1080.webp": 168132
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Traces de pas nus dans le sable mouillé qui s'arrêtent au bord de l'eau\", cadrage: '82% 24%', cadrageMobile: '45% 29%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

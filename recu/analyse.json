@@ -1,0 +1,1207 @@
+{
+  "dossier": "/home/claude/patricia-forest-maquette/recu",
+  "date": "2026-11-23T14:53:20.904Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo.png",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 306,
+      "hauteur": 86,
+      "ratio": "3.56",
+      "ratio_valeur": 3.558,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 5885,
+      "transparence": true,
+      "sujet": {
+        "x": 6.3,
+        "y": 22.2,
+        "l": 71.9,
+        "h": 44.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        45
+      ],
+      "cadrage_css": "44% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 85.3,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "00362efba78b0002",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "patricia-forest.jpg",
+      "nom": "patricia-forest",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1151,
+      "ratio": "16:9",
+      "ratio_valeur": 1.738,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 197061,
+      "transparence": false,
+      "sujet": {
+        "x": 59.4,
+        "y": 0,
+        "l": 31.3,
+        "h": 94.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        75,
+        35
+      ],
+      "cadrage_css": "75% 35%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 27.1,
+        "bruit": 0.73,
+        "compression": 1.29,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d3d3a3e1c1a1a161",
+      "drapeaux": [
+        "autre",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "principe.jpg",
+      "nom": "principe",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 140341,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        51
+      ],
+      "cadrage_css": "49% 51%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 3.9,
+        "bruit": 0.29,
+        "compression": 1.72,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "db5e6c7e76e4eb8b",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "patricia-forest-2.jpg",
+      "nom": "patricia-forest-2",
+      "drapeau": "autre",
+      "largeur": 1917,
+      "hauteur": 2000,
+      "ratio": "0.96",
+      "ratio_valeur": 0.959,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 330707,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.8,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        45
+      ],
+      "cadrage_css": "53% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 6.8,
+        "bruit": 0.46,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "198988c6365adad8",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "drapeau": "autre",
+      "largeur": 430,
+      "hauteur": 1670,
+      "ratio": "0.26",
+      "ratio_valeur": 0.257,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 104139,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 77.8,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        20,
+        43
+      ],
+      "cadrage_css": "20% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 54.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "430 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d7555552d0d0d0d0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "contact.webp",
+      "nom": "contact",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 28030,
+      "transparence": false,
+      "sujet": {
+        "x": 43.8,
+        "y": 50,
+        "l": 56.3,
+        "h": 3.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        82,
+        52
+      ],
+      "cadrage_css": "82% 52%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 31.6,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f69216382b7664ad",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/haut/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "contact-2.webp",
+      "nom": "contact-2",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 26826,
+      "transparence": false,
+      "sujet": {
+        "x": 31.3,
+        "y": 65.6,
+        "l": 50,
+        "h": 3.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        67
+      ],
+      "cadrage_css": "57% 67%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 36.7,
+        "bruit": 0.52,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "505855cd4e021b19",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "contact-3.webp",
+      "nom": "contact-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 16020,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 3.1,
+        "l": 71.9,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        49
+      ],
+      "cadrage_css": "48% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 19,
+        "bruit": 0.37,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "02862cc833258484",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-4.webp",
+      "nom": "contact-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 30986,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 100,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        50
+      ],
+      "cadrage_css": "49% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 39.3,
+        "bruit": 0.62,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "5a15305aedb65472",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-5.webp",
+      "nom": "contact-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 17584,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        41
+      ],
+      "cadrage_css": "45% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 14.1,
+        "bruit": 0.32,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "ca5c34d2b01161c2",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-6.webp",
+      "nom": "contact-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 30828,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.3,
+        "l": 84.4,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        30
+      ],
+      "cadrage_css": "36% 30%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "gauche",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 37.9,
+        "bruit": 0.6,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "1d6582cae22a67ed",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "praticienne.jpg",
+      "nom": "praticienne",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 378853,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        57
+      ],
+      "cadrage_css": "43% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 26.7,
+        "bruit": 0.71,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9213325192b2c3cc",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "praticienne-2.jpg",
+      "nom": "praticienne-2",
+      "drapeau": "portrait",
+      "largeur": 1350,
+      "hauteur": 900,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 117497,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 22.7,
+        "l": 96.9,
+        "h": 72.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        66
+      ],
+      "cadrage_css": "39% 66%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 9,
+        "bruit": 0.41,
+        "compression": 0.93,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1f898dc50584868b",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "praticienne-3.jpg",
+      "nom": "praticienne-3",
+      "drapeau": "portrait",
+      "largeur": 1350,
+      "hauteur": 900,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 76414,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        62
+      ],
+      "cadrage_css": "50% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 2.1,
+        "bruit": 0.26,
+        "compression": 1.04,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f8f0f0ccece8f8ec",
+      "drapeaux": [
+        "portrait",
+        "floue"
+      ]
+    },
+    {
+      "fichier": "praticienne-4.jpg",
+      "nom": "praticienne-4",
+      "drapeau": "portrait",
+      "largeur": 634,
+      "hauteur": 951,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 58241,
+      "transparence": false,
+      "sujet": {
+        "x": 22.7,
+        "y": 25,
+        "l": 72.7,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        66
+      ],
+      "cadrage_css": "50% 66%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 28.7,
+        "bruit": 0.47,
+        "compression": 1.3,
+        "faible": true,
+        "raisons": [
+          "634 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c4f2498e8e960f8f",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "petite-histoire.jpg",
+      "nom": "petite-histoire",
+      "drapeau": "autre",
+      "largeur": 934,
+      "hauteur": 1401,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 93435,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        61
+      ],
+      "cadrage_css": "54% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 6.2,
+        "bruit": 0.31,
+        "compression": 1.59,
+        "faible": true,
+        "raisons": [
+          "934 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "99160083096112a3",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "principe-2.jpg",
+      "nom": "principe-2",
+      "drapeau": "autre",
+      "largeur": 1351,
+      "hauteur": 901,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 194043,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        52
+      ],
+      "cadrage_css": "43% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 77.1,
+        "bruit": 0.88,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e0b830b0b2b8b070",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "petite-histoire-2.jpg",
+      "nom": "petite-histoire-2",
+      "drapeau": "autre",
+      "largeur": 1350,
+      "hauteur": 900,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 327577,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        70
+      ],
+      "cadrage_css": "49% 70%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 46.1,
+        "bruit": 2.01,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0f0d0f0e0e8f0f0",
+      "drapeaux": [
+        "autre"
+      ]
+    }
+  ]
+}

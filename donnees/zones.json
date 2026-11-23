@@ -1,0 +1,10 @@
+[
+  { "id": "tete", "nom": "Tête et sinus", "texte": "Le bout des orteils : la tête, et les sinus sur les petits orteils." },
+  { "id": "cou", "nom": "Cou et thyroïde", "texte": "La base du gros orteil répond au cou." },
+  { "id": "poitrine", "nom": "Poitrine et poumons", "texte": "L'avant-pied, juste sous les orteils, correspond à la cage thoracique." },
+  { "id": "plexus", "nom": "Plexus solaire", "texte": "Au creux, juste sous l'avant-pied." },
+  { "id": "digestion", "nom": "Système digestif", "texte": "Le milieu de la voûte : estomac, foie, intestins." },
+  { "id": "reins", "nom": "Reins et vessie", "texte": "Au centre de la voûte, et vers le bord intérieur pour la vessie." },
+  { "id": "colonne", "nom": "Colonne vertébrale", "texte": "Tout le bord intérieur du pied, du gros orteil au talon." },
+  { "id": "bassin", "nom": "Bas du dos et bassin", "texte": "Le talon." }
+]

@@ -1,0 +1,12 @@
+{
+  "domicile": [
+    { "cle": "s30", "prix": 35, "duree": "30 min" },
+    { "cle": "s60", "prix": 60, "duree": "1 h" },
+    { "cle": "forfait", "prix": 250, "duree": "5 × 1 h" }
+  ],
+  "crau": [
+    { "cle": "s30", "prix": 25, "duree": "30 min" },
+    { "cle": "s60", "prix": 50, "duree": "1 h" },
+    { "cle": "forfait", "prix": null, "duree": "5 × 1 h" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+ "id": "20261123-154344-standard-cible-partiel",
+ "date": "2026-11-23T15:47:52.202Z",
+ "niveau": "standard",
+ "pages": "/,/404,/la-praticienne,/la-reflexologie,/rendez-vous,/seances-et-tarifs",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "mouvement"
+ ],
+ "version": "1",
+ "echecs": 2,
+ "aRegarder": 19,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

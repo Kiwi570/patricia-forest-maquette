@@ -1,0 +1,362 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Prendre rendez-vous",
+    "actionCourte": "Rendez-vous",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de présentation : les formulaires sont simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Réflexologie plantaire · Var",
+    "signature": "Réflexologie plantaire",
+    "logoAccueil": "Patricia Forest, réflexologie plantaire, accueil",
+    "mentions": "Mentions légales",
+    "confidentialite": "Politique de confidentialité",
+    "aCompleter": "à compléter",
+    "contact": "Contact",
+    "ecrire": "Écrire un e-mail",
+    "facebook": "Retrouvez-moi sur Facebook",
+    "ouLaCrau": "Cabinet à La Crau",
+    "domicile": "À domicile dans le Var",
+    "surRdv": "Sur rendez-vous, du lundi au samedi",
+    "medical": "La réflexologie est une technique de bien-être et de gestion du stress : elle ne remplace ni l'avis d'un médecin, ni un traitement en cours.",
+    "planSimplifie": "Plan simplifié",
+    "appel": {
+      "sur": "Prendre rendez-vous",
+      "titre": "Et si vous repreniez pied ?",
+      "texte": "Le plus simple, c'est un appel. Vous pouvez aussi envoyer une demande en ligne, à votre rythme.",
+      "action": "Faire une demande"
+    }
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Patricia Forest : réflexologie plantaire à domicile dans le Var et à La Crau",
+      "description": "Réflexologue certifiée, Patricia Forest vient chez vous de Six-Fours à Toulon et Hyères, ou vous reçoit à La Crau. Séance d'une heure : 60 € à domicile.",
+      "nav": "Accueil",
+      "partageAlt": "Patricia Forest en séance de réflexologie plantaire, avec le titre Reprendre pied",
+      "accroche": "Reprendre pied."
+    },
+    "la-reflexologie": {
+      "titre": "La réflexologie plantaire : le principe, la carte du pied et sa petite histoire · Patricia Forest",
+      "description": "Le pied, une carte du corps : comment fonctionne la réflexologie plantaire, ses zones réflexes et son histoire, de l'Égypte ancienne à Eunice Ingham.",
+      "nav": "La réflexologie",
+      "partageAlt": "La réflexologie plantaire, le pied comme carte du corps",
+      "accroche": "Le pied, carte du corps."
+    },
+    "la-praticienne": {
+      "titre": "La praticienne : Patricia Forest, réflexologue certifiée · Var",
+      "description": "Diplômée de l'École de Podo-Réflexologie de Paris et du centre Mireille Meunier, plus de 500 heures de formation, membre de la Fédération française des réflexologues.",
+      "nav": "La praticienne",
+      "partageAlt": "Patricia Forest, réflexologue, pendant une séance",
+      "accroche": "Patricia Forest, réflexologue certifiée"
+    },
+    "seances-et-tarifs": {
+      "titre": "Séances et tarifs : réflexologie à domicile et à La Crau · Patricia Forest",
+      "description": "Séance de 30 minutes ou d'une heure, forfait de 5 séances, tarifs au cabinet de La Crau, bons cadeaux valables 6 mois, ateliers en entreprise sur devis.",
+      "nav": "Séances et tarifs",
+      "partageAlt": "Tarifs des séances de réflexologie de Patricia Forest",
+      "accroche": "60 € la séance d'une heure, chez vous"
+    },
+    "rendez-vous": {
+      "titre": "Rendez-vous : réflexologie à domicile dans le Var ou à La Crau · Patricia Forest",
+      "description": "Appelez le 06 47 96 99 86 ou envoyez une demande : séance chez vous, de Six-Fours à Hyères, ou à l'Espace bien-être de La Coloc' à La Crau.",
+      "nav": "Rendez-vous",
+      "partageAlt": "Prendre rendez-vous avec Patricia Forest, réflexologue",
+      "accroche": "On prend rendez-vous ?"
+    },
+    "404": {
+      "titre": "Page introuvable · Patricia Forest",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Vous avez perdu pied ?"
+    }
+  },
+  "pied": {
+    "zones": "Zones réflexes",
+    "voirCarte": "Voir sur la carte",
+    "legende": "Schéma simplifié, d'après les cartes classiques de réflexologie plantaire.",
+    "aide": "Touchez une zone du pied ou de la liste.",
+    "aideSouris": "Survolez ou choisissez une zone du pied ou de la liste.",
+    "pieds": "Les deux pieds vus par en dessous, avec leurs zones réflexes"
+  },
+  "accueil": {
+    "hero": {
+      "sur": "Réflexologie plantaire · Var",
+      "titre1": "Reprendre",
+      "titre2": "pied.",
+      "texte": "Une séance de réflexologie plantaire chez vous, ou au calme à La Crau. Des pressions précises et rythmées, et une détente profonde.",
+      "action": "Prendre rendez-vous",
+      "info": "À domicile, de Six-Fours à Hyères",
+      "infoPrix": "1 h · 60 €",
+      "legende": "Patricia, en séance"
+    },
+    "carte": {
+      "sur": "Le principe",
+      "titre": "Le pied, une carte du corps",
+      "manifeste": "Sur la plante du pied, chaque organe, chaque fonction a sa zone réflexe. Par des pressions ciblées et rythmées, je repère les tensions et j'invite le corps à se relâcher.",
+      "lien": "Toucher la carte du pied"
+    },
+    "seance": {
+      "sur": "Comment ça se passe",
+      "titre": "Une séance en trois temps",
+      "e1t": "Faire connaissance",
+      "e1": "La première fois, on commence par un questionnaire de santé. Prévoyez environ 1 h 30 en tout.",
+      "e2t": "Vous installer, chez vous",
+      "e2": "Je viens à votre domicile, du lundi au samedi, ou je vous reçois à La Crau. Vous restez allongé, pieds nus, au calme.",
+      "e3t": "Relâcher",
+      "e3": "30 ou 60 minutes de pressions ciblées et rythmées sur la plante des pieds, pour une détente profonde, revitalisante.",
+      "lien": "Les séances en détail"
+    },
+    "zone": {
+      "sur": "Où je viens",
+      "titre": "Chez vous, de Six-Fours à Hyères",
+      "texte": "Je me déplace dans onze communes varoises, de Six-Fours à Toulon et Hyères. Et je vous reçois à l'Espace bien-être de La Coloc', à La Crau.",
+      "action": "Demander pour ma commune",
+      "carte": "Plan du littoral varois : la zone des séances à domicile, de Six-Fours à Hyères, et le cabinet de La Crau"
+    },
+    "tarifs": {
+      "sur": "Tarifs",
+      "titre": "Une heure pour vous",
+      "lien": "Toutes les séances et le bon cadeau"
+    },
+    "praticienne": {
+      "sur": "La praticienne",
+      "titre": "Patricia Forest, réflexologue certifiée",
+      "texte": "Diplômée de l'École de Podo-Réflexologie de Paris et du centre de Mireille Meunier, en Isère. Ce qui l'a menée aux pieds : la symbolique de l'enracinement à la Terre, et leur rôle dans l'équilibre de tout le corps.",
+      "c1": "heures de formation, et plus",
+      "c2": "massage thaï, appris à Bangkok",
+      "c3": "membre de la Fédération française des réflexologues",
+      "lien": "Son parcours"
+    },
+    "avis": {
+      "sur": "Ils en parlent",
+      "citation": "Très efficace et très professionnelle, Patricia, charmante et discrète, vous refait une santé !",
+      "auteur": "Lud M."
+    },
+    "guide": {
+      "titre": "Le guide malin de la réflexologie",
+      "texte": "Inscrivez-vous à la lettre d'information : un extrait du guide et ses cartes des points réflexes vous sont offerts.",
+      "email": "Votre e-mail",
+      "action": "Ça m'intéresse",
+      "donnees": "Votre adresse sert seulement à vous envoyer la lettre. Politique de confidentialité (à compléter).",
+      "merci": "Merci ! (Maquette : rien n'a été envoyé.)"
+    }
+  },
+  "tarifs": {
+    "bascule": "Lieu de la séance",
+    "domicile": "À domicile",
+    "crau": "À La Crau",
+    "s30": "Séance de 30 minutes",
+    "s60": "Séance d'une heure",
+    "forfait": "Forfait 5 séances d'une heure",
+    "forfaitNote": "soit 50 € la séance",
+    "forfaitCrau": "Proposé à domicile",
+    "noteDomicile": "Chez vous, dans onze communes du Var.",
+    "noteCrau": "Tarifs préférentiels à l'Espace bien-être de La Coloc', La Crau.",
+    "premiere": "Première séance : questionnaire de santé, puis la séance. Prévoyez environ 1 h 30."
+  },
+  "bon": {
+    "sur": "Offrir",
+    "titre": "Un bon cadeau",
+    "texte": "Une séance à offrir, valable 6 mois.",
+    "action": "Composer un bon cadeau",
+    "carteTitre": "Bon cadeau",
+    "carteValidite": "Valable 6 mois",
+    "pour": "Pour",
+    "de": "De la part de",
+    "seance": "Séance",
+    "lieu": "Lieu",
+    "pourDefaut": "Prénom",
+    "deDefaut": "Votre prénom",
+    "exemple": "Aperçu du bon (maquette)"
+  },
+  "reflexo": {
+    "tete": {
+      "sur": "La réflexologie plantaire",
+      "titre1": "Le pied,",
+      "titre2": "carte du corps.",
+      "texte": "Une technique manuelle, née de traditions très anciennes : des pressions précises sur la plante des pieds pour détendre le corps tout entier.",
+      "action": "Prendre rendez-vous",
+      "info": "Séance de 30 minutes ou d'une heure"
+    },
+    "principe": {
+      "sur": "Le principe",
+      "titre": "Le corps, en miniature",
+      "p1": "Le pied est une représentation miniaturisée du corps humain : chaque organe, chaque fonction y a sa zone réflexe. On retrouve cette idée sur le visage, les oreilles ou les yeux.",
+      "p2": "Par des pressions ciblées et rythmées, la réflexologue localise les tensions et stimule les capacités d'autorégulation du corps.",
+      "p3": "Ce qu'on en retient le plus souvent : une détente profonde, revitalisante, un sentiment de mieux-être et d'harmonie."
+    },
+    "carte": {
+      "sur": "À vous",
+      "titre": "La carte du pied",
+      "texte": "Touchez une zone : elle s'allume sur les deux pieds."
+    },
+    "histoire": {
+      "sur": "La petite histoire",
+      "titre": "Quatre mille ans de pieds",
+      "texte": "Des traditions de massage de Chine, d'Inde et d'Égypte jusqu'à la méthode d'aujourd'hui."
+    },
+    "cadre": {
+      "sur": "Ce qu'elle est, et n'est pas",
+      "titre": "Du bien-être, en complément",
+      "oui1": "Une technique de bien-être et de gestion du stress.",
+      "oui2": "Une approche alternative et complémentaire.",
+      "non1": "Elle ne remplace pas l'avis d'un médecin.",
+      "non2": "Elle ne remplace pas un traitement en cours.",
+      "ffr": "La profession est représentée par la Fédération française des réflexologues et par le Syndicat professionnel des réflexologues."
+    }
+  },
+  "praticienne": {
+    "tete": {
+      "sur": "La praticienne",
+      "titre1": "Patricia",
+      "titre2": "Forest",
+      "texte": "Réflexologue certifiée RNCP, à domicile dans le Var et au cabinet de La Crau.",
+      "action": "Prendre rendez-vous",
+      "info": "Plus de 500 heures de formation"
+    },
+    "parcours": {
+      "sur": "Son parcours",
+      "titre": "De Bangkok à la plante des pieds"
+    },
+    "pourquoi": {
+      "sur": "Pourquoi les pieds",
+      "titre": "L'enracinement",
+      "texte": "Ce qui l'a attirée vers la réflexologie : sa simplicité apparente, son efficacité, sa symbolique, l'enracinement à la Terre, et le rôle des pieds dans l'équilibre général.",
+      "ideo": "足",
+      "ideoTexte": "Selon Patricia, l'idéogramme chinois du pied se lit : « partie du corps qui sauvegarde la santé »."
+    },
+    "lieux": {
+      "sur": "Où elle pratique",
+      "titre": "Chez vous, ou à La Crau",
+      "domicileT": "À domicile",
+      "domicile": "Sur rendez-vous, du lundi au samedi, dans onze communes du Var, de Six-Fours à Toulon et Hyères.",
+      "crauT": "Au cabinet",
+      "crau": "Espace bien-être de La Coloc', 6 impasse des Palmiers, 83260 La Crau. Sur rendez-vous.",
+      "groupesT": "En groupe",
+      "groupes": "Ateliers en maisons de retraite et associations, pauses bien-être en entreprise : sur devis."
+    }
+  },
+  "seances": {
+    "tete": {
+      "sur": "Séances et tarifs",
+      "prix": "60 €",
+      "titre": "la séance d'une heure, chez vous.",
+      "texte": "30 minutes ou une heure, à domicile dans le Var ou à La Crau. Un forfait de cinq séances, et des bons cadeaux à offrir.",
+      "action": "Prendre rendez-vous",
+      "info": "À La Crau : 50 € l'heure"
+    },
+    "premiere": {
+      "sur": "La première séance",
+      "titre": "Prendre le temps de faire connaissance",
+      "texte": "Elle commence par un questionnaire de santé, puis vient la séance de réflexologie. Prévoyez environ 1 h 30 en tout.",
+      "d1": "Questionnaire de santé",
+      "d2": "Séance de réflexologie",
+      "d3": "Environ 1 h 30 en tout"
+    },
+    "grille": {
+      "sur": "Tarifs",
+      "titre": "Chez vous ou à La Crau"
+    },
+    "bon": {
+      "titre": "Composer un bon cadeau",
+      "texte": "Choisissez la séance et le lieu, écrivez les prénoms : le bon se compose sous vos yeux. Il est valable 6 mois.",
+      "action": "Demander ce bon cadeau",
+      "note": "Maquette : la demande se finalise par téléphone ou par la page Rendez-vous."
+    },
+    "groupes": {
+      "sur": "En groupe",
+      "titre": "Ateliers et pauses bien-être",
+      "texte": "Pour des ateliers de groupe (maisons de retraite, associations) ou des pauses bien-être individuelles d'environ 20 minutes en entreprise, Patricia établit un devis sur demande.",
+      "action": "Demander un devis"
+    },
+    "faq": {
+      "sur": "Questions pratiques",
+      "titre": "Avant de réserver"
+    }
+  },
+  "rdv": {
+    "tete": {
+      "sur": "Rendez-vous",
+      "titre1": "On prend",
+      "titre2": "rendez-vous ?",
+      "texte": "Le plus simple : un appel. Ou une demande en quatre petites étapes, ci-dessous.",
+      "action": "Faire une demande",
+      "info": "Sur rendez-vous, du lundi au samedi"
+    },
+    "form": {
+      "sur": "Demande en ligne",
+      "titre": "Votre demande",
+      "etapes": "4 étapes : le lieu, la séance, vos disponibilités, vos coordonnées.",
+      "etape": "Étape {n} sur 4",
+      "q1": "Où souhaitez-vous la séance ?",
+      "q2": "Quelle séance ?",
+      "q3": "Quand êtes-vous disponible ?",
+      "q4": "Vos coordonnées",
+      "lieuDomicile": "Chez moi",
+      "lieuDomicileD": "Dans l'une des onze communes, de Six-Fours à Hyères",
+      "lieuCrau": "À La Crau",
+      "lieuCrauD": "Espace bien-être de La Coloc'",
+      "lieuBon": "Un bon cadeau",
+      "lieuBonD": "Une séance à offrir, valable 6 mois",
+      "lieuGroupe": "Un atelier ou une entreprise",
+      "lieuGroupeD": "Sur devis",
+      "commune": "Votre commune",
+      "s30": "30 minutes",
+      "s60": "Une heure",
+      "sForfait": "Forfait 5 séances",
+      "sPremiere": "C'est ma première séance",
+      "jours": "Jours qui vous conviennent",
+      "moment": "Moment de la journée",
+      "matin": "Matin",
+      "apresMidi": "Après-midi",
+      "soir": "Fin de journée",
+      "lundi": "Lun",
+      "mardi": "Mar",
+      "mercredi": "Mer",
+      "jeudi": "Jeu",
+      "vendredi": "Ven",
+      "samedi": "Sam",
+      "nom": "Nom et prénom",
+      "tel": "Téléphone",
+      "email": "E-mail (facultatif)",
+      "message": "Un mot pour Patricia (facultatif)",
+      "precedent": "Retour",
+      "suivant": "Continuer",
+      "envoyer": "Envoyer la demande",
+      "recap": "Votre demande",
+      "recapVide": "Vos choix s'affichent ici.",
+      "recapLieu": "Lieu",
+      "recapSeance": "Séance",
+      "recapQuand": "Disponibilités",
+      "recapPrix": "Tarif",
+      "donnees": "Vos coordonnées servent seulement à organiser le rendez-vous. Politique de confidentialité (à compléter).",
+      "merci": "Merci ! Maquette : rien n'a été envoyé. Pour un vrai rendez-vous, appelez le 06 47 96 99 86."
+    },
+    "direct": {
+      "sur": "En direct",
+      "titre": "Appeler, écrire",
+      "tel": "Par téléphone",
+      "email": "Par e-mail",
+      "facebook": "Sur Facebook"
+    },
+    "zone": {
+      "sur": "Où",
+      "titre": "La zone et le cabinet"
+    }
+  },
+  "introuvable": {
+    "titre": "Vous avez perdu pied ?",
+    "texte": "Cette page n'existe pas ou plus. Revenez sur vos pas : tout le reste est là.",
+    "retour": "Retour à l'accueil",
+    "rdv": "Prendre rendez-vous"
+  }
+}

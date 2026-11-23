@@ -1,0 +1,233 @@
+{
+  "date": "2026-11-23T14:56:38.506Z",
+  "plan": "/home/claude/patricia-forest-maquette/plan-images.json",
+  "attendus": 12,
+  "recus": 12,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [],
+  "images": [
+    {
+      "nom": "accueil-salon",
+      "attendu": "accueil-salon.jpg",
+      "fichier": "accueil-salon.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "seance-connaissance",
+      "attendu": "seance-connaissance.jpg",
+      "fichier": "seance-connaissance.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "seance-pieds",
+      "attendu": "seance-pieds.jpg",
+      "fichier": "seance-pieds.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "accueil-pins",
+      "attendu": "accueil-pins.jpg",
+      "fichier": "accueil-pins.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "accueil-pins",
+      "mobile": true,
+      "attendu": "accueil-pins-mobile.jpg",
+      "fichier": "accueil-pins-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "reflexologie-sentier",
+      "attendu": "reflexologie-sentier.jpg",
+      "fichier": "reflexologie-sentier.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "reflexologie-sentier",
+      "mobile": true,
+      "attendu": "reflexologie-sentier-mobile.jpg",
+      "fichier": "reflexologie-sentier-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "praticienne-racines",
+      "attendu": "praticienne-racines.jpg",
+      "fichier": "praticienne-racines.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "tarifs-serviettes",
+      "attendu": "tarifs-serviettes.jpg",
+      "fichier": "tarifs-serviettes.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "rdv-porte",
+      "attendu": "rdv-porte.jpg",
+      "fichier": "rdv-porte.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "page-404",
+      "attendu": "page-404.jpg",
+      "fichier": "page-404.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "page-404",
+      "mobile": true,
+      "attendu": "page-404-mobile.jpg",
+      "fichier": "page-404-mobile.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    }
+  ]
+}

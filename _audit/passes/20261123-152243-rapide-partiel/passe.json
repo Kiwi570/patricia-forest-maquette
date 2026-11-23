@@ -1,0 +1,18 @@
+{
+ "id": "20261123-152243-rapide-partiel",
+ "date": "2026-11-23T15:24:20.485Z",
+ "niveau": "rapide",
+ "pages": "toutes",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "films",
+  "fluidite"
+ ],
+ "version": "1",
+ "echecs": 1,
+ "aRegarder": 12,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "20261123-161920-standard-cible-partiel",
+ "date": "2026-11-23T16:21:30.557Z",
+ "niveau": "standard",
+ "pages": "/,/seances-et-tarifs",
+ "etapes": [
+  "fichiers",
+  "parcours"
+ ],
+ "version": "1",
+ "echecs": 1,
+ "aRegarder": 2,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

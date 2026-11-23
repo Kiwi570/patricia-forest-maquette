@@ -1,0 +1,21 @@
+{
+  "nom": "Patricia Forest",
+  "adresse": "https://patricia-forest-maquette.vercel.app",
+  "siteActuel": "www.patriciaforest.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "la-reflexologie", "la-praticienne", "seances-et-tarifs", "rendez-vous"],
+  "actionEntete": { "page": "rendez-vous", "ancre": "demande" },
+  "couleurs": { "fond": "#F3ECE1", "texte": "#24211D", "voile": "#233A2E", "ouverture": "#E8DCCB", "menu": "#F3ECE1", "theme": "#F3ECE1" },
+  "formeVoile": "glisse",
+  "contact": {
+    "telephone": "06 47 96 99 86",
+    "telephoneLien": "+33647969986",
+    "email": "patricia-forest@orange.fr",
+    "adresse": "Espace bien-être de La Coloc', 6 impasse des Palmiers, 83260 La Crau",
+    "facebook": "https://www.facebook.com/ReflexologiePlantaireVar/"
+  },
+  "polices": ["/assets/fonts/dm-serif-display-400.woff2", "/assets/fonts/figtree-400.woff2"],
+  "imagePartage": "patricia-ouverture-1300.webp",
+  "curseur": true
+}

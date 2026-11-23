@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patricia Forest · trois directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Figtree:wght@400;500;600&family=Gloock&family=Karla:wght@400;500;700&family=Manrope:wght@400;500;700&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Figtree,system-ui,sans-serif;background:#ECEAE6;color:#222;padding:clamp(16px,3vw,40px)}
+  header{max-width:1320px;margin:0 auto 28px}
+  header h1{font-family:'DM Serif Display',serif;font-weight:400;font-size:clamp(28px,3.4vw,44px);line-height:1.05}
+  header p{margin-top:8px;font-size:16px;color:#555;max-width:70ch}
+  .grille{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+  @media (max-width:1050px){.grille{grid-template-columns:minmax(0,1fr)}}
+  .dir{border-radius:18px;overflow:hidden;background:var(--fond);color:var(--texte);box-shadow:0 1px 0 rgba(0,0,0,.05),0 18px 40px -24px rgba(0,0,0,.35);display:flex;flex-direction:column}
+  .etiquette{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;border-bottom:1px solid var(--trait)}
+  .reco{background:var(--accent);color:var(--sur-accent);padding:4px 10px;border-radius:99px;letter-spacing:.04em}
+  .heros{position:relative;min-height:330px;padding:26px 22px;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.55fr);gap:10px;align-items:center;background:var(--heros-fond);color:var(--heros-texte);overflow:hidden}
+  .heros .sur{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.8;margin-bottom:12px}
+  .heros h2{font-weight:400;line-height:.95}
+  .heros .chapo{font-size:14px;line-height:1.45;margin-top:14px;max-width:30ch;opacity:.88}
+  .heros .btn{display:inline-block;margin-top:16px;padding:10px 16px;border-radius:99px;background:var(--accent);color:var(--sur-accent);font-size:13px;font-weight:600}
+  .info{display:block;margin-top:10px;font-size:12px;opacity:.75}
+  .contenu{padding:20px 20px 24px;display:flex;flex-direction:column;gap:18px;flex:1}
+  .palette{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+  .pastille{border-radius:10px;height:64px;display:flex;align-items:flex-end;padding:6px;font-size:10.5px;font-weight:600;letter-spacing:.02em;border:1px solid rgba(0,0,0,.08)}
+  .pastille span{display:block}
+  .legende-pal{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;font-size:11px;opacity:.8;margin-top:4px}
+  .typo{border-top:1px solid var(--trait);padding-top:14px}
+  .typo .t{font-size:30px;line-height:1.05}
+  .typo .c{font-size:14px;margin-top:6px;opacity:.8}
+  h3{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;opacity:.65;margin-bottom:6px}
+  ul{list-style:none;display:grid;gap:7px}
+  li{font-size:14.5px;line-height:1.45;padding-left:14px;position:relative}
+  li::before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+  .proche{font-size:13px;opacity:.8;border-top:1px solid var(--trait);padding-top:12px;margin-top:auto}
+
+  /* A · Reprendre pied */
+  .a{--fond:#F3ECE1;--texte:#24211D;--trait:rgba(36,33,29,.14);--accent:#A8471F;--sur-accent:#fff;--heros-fond:#F3ECE1;--heros-texte:#24211D;font-family:Figtree,sans-serif}
+  .a h2{font-family:'DM Serif Display',serif;font-size:clamp(38px,3.5vw,54px)}
+  .a h2 em{color:#A8471F}
+  .a .typo .t{font-family:'DM Serif Display',serif}
+  .a .pied{width:100%;max-width:150px;justify-self:center}
+  .a .pied path,.a .pied ellipse{fill:none;stroke:#233A2E;stroke-width:1.6}
+  .a .pied circle{fill:#A8471F}
+  .a .bande{position:absolute;left:0;right:0;bottom:0;height:10px;background:linear-gradient(90deg,#233A2E 0 50%,#E8DCCB 50% 80%,#A8471F 80%)}
+
+  /* B · Encre et sceau */
+  .b{--fond:#F5F1E8;--texte:#1C1B19;--trait:rgba(28,27,25,.14);--accent:#C23B22;--sur-accent:#fff;--heros-fond:#F5F1E8;--heros-texte:#1C1B19;font-family:Manrope,sans-serif}
+  .b h2{font-family:'Shippori Mincho','Hiragino Mincho ProN',serif;font-weight:500;font-size:clamp(36px,3.3vw,50px)}
+  .b h2 em{font-style:normal;color:#C23B22}
+  .b .typo .t{font-family:'Shippori Mincho','Hiragino Mincho ProN',serif;font-weight:500}
+  .b .ideo{font-family:"Shippori Mincho","Hiragino Mincho ProN",serif;font-size:110px;line-height:1;justify-self:center;position:relative;color:#1C1B19}
+  .b .sceau{position:absolute;right:-10px;bottom:6px;width:46px;height:46px;background:#C23B22;color:#F5F1E8;font-size:16px;display:grid;place-items:center;border-radius:6px;font-family:'Shippori Mincho',serif;font-weight:700;transform:rotate(-6deg)}
+  .b .lavis{position:absolute;left:-10%;right:-10%;bottom:-30px;height:80px;background:radial-gradient(60% 60% at 40% 50%,rgba(28,27,25,.12),transparent 70%)}
+
+  /* C · Cocon du soir */
+  .c{--fond:#231C19;--texte:#F3EBDD;--trait:rgba(243,235,221,.16);--accent:#D9A15A;--sur-accent:#231C19;--heros-fond:radial-gradient(70% 90% at 75% 45%,#5A3F2B 0,#231C19 70%);--heros-texte:#F3EBDD;font-family:Karla,sans-serif}
+  .c h2{font-family:Gloock,serif;font-size:clamp(36px,3.3vw,50px)}
+  .c h2 em{font-style:normal;color:#D9A15A}
+  .c .typo .t{font-family:Gloock,serif}
+  .c .lueur{width:150px;height:150px;border-radius:50%;justify-self:center;background:radial-gradient(circle,#F4D3A0 0,#D9A15A 35%,rgba(217,161,90,0) 70%);filter:saturate(1.1)}
+  .c .lin{background:#EFE5D6;color:#231C19}
+</style>
+</head>
+<body>
+<header>
+  <h1>Patricia Forest · trois directions</h1>
+  <p>Réflexologie plantaire à domicile dans le Var et à La Crau. Chaque carte montre l'ambiance, la palette (fond dominant, second fond, fond sombre, accent), les polices et ce qui bougera. Les maquettes favorites restent la barre visée.</p>
+</header>
+<div class="grille">
+
+  <article class="dir a">
+    <div class="etiquette"><span>A · Reprendre pied</span><span class="reco">Recommandé</span></div>
+    <div class="heros">
+      <div>
+        <p class="sur">Réflexologue · Var</p>
+        <h2>Reprendre <em>pied.</em></h2>
+        <p class="chapo">Une heure pour relâcher, chez vous ou à La Crau. Réflexologie plantaire, sur rendez-vous.</p>
+        <span class="btn">Prendre rendez-vous</span>
+        <span class="info">À domicile de Six-Fours à Hyères · 60 min · 60 €</span>
+      </div>
+      <svg class="pied" viewBox="0 0 120 260" aria-hidden="true">
+        <path d="M60 250C35 250 28 230 30 205C32 180 42 165 40 140C38 115 25 95 26 70C27 52 45 42 62 42C82 42 98 50 100 72C102 92 92 110 88 135C84 160 92 185 90 210C88 235 80 250 60 250Z"/>
+        <ellipse cx="40" cy="26" rx="12" ry="15"/><ellipse cx="61" cy="17" rx="7.5" ry="10"/><ellipse cx="76" cy="21" rx="6.5" ry="9"/><ellipse cx="88" cy="29" rx="5.5" ry="8"/><ellipse cx="97" cy="40" rx="4.5" ry="6.5"/>
+        <circle cx="40" cy="24" r="3.2"/><circle cx="58" cy="92" r="3.2"/><circle cx="70" cy="128" r="3.2"/><circle cx="48" cy="160" r="3.2"/><circle cx="62" cy="222" r="3.2"/>
+      </svg>
+      <div class="bande"></div>
+    </div>
+    <div class="contenu">
+      <div>
+        <div class="palette">
+          <div class="pastille" style="background:#F3ECE1;color:#24211D"><span>#F3ECE1</span></div>
+          <div class="pastille" style="background:#E8DCCB;color:#24211D"><span>#E8DCCB</span></div>
+          <div class="pastille" style="background:#233A2E;color:#F3ECE1"><span>#233A2E</span></div>
+          <div class="pastille" style="background:#A8471F;color:#fff"><span>#A8471F</span></div>
+          <div class="pastille" style="background:#E9B27F;color:#233A2E"><span>#E9B27F</span></div>
+        </div>
+        <div class="legende-pal"><span>sable (fond)</span><span>argile</span><span>vert pin</span><span>terre cuite</span><span>abricot</span></div>
+      </div>
+      <div class="typo"><p class="t">Vos pieds vous <em style="color:#A8471F">portent</em></p><p class="c">Titres DM Serif Display, italique pour le mot clé · texte Figtree, net et doux</p></div>
+      <div><h3>L'idée</h3><ul>
+        <li>Le pied comme carte du corps, le principe même de la réflexologie : un contour tracé d'un seul trait, ses points qui s'allument. Il ouvre le site, puis devient un outil : touchez une zone, elle dit à quoi elle correspond, et mène au guide malin offert.</li>
+        <li>La lumière du Var : sable, pins, terre cuite. Photos chaudes du matin, grandes, cadrées pareil.</li>
+      </ul></div>
+      <div><h3>Accueil</h3><ul>
+        <li>Ouverture « Reprendre pied » · la séance en trois temps · la carte du pied · où je viens (carte du Var, La Crau) · tarifs domicile ou La Crau, bon cadeau · la praticienne · témoignage · appel final.</li>
+        <li>Intro : le pied se trace, les points s'allument en vague, le titre monte. Titres en lignes, photos en rideau et parallaxe, prix qui roulent quand on bascule domicile ou La Crau, carte qui se dessine.</li>
+      </ul></div>
+      <p class="proche">Proche par le niveau : Agence AE, À pas de chien (clair, chaud, un geste du métier discret).</p>
+    </div>
+  </article>
+
+  <article class="dir b">
+    <div class="etiquette"><span>B · Encre et sceau</span><span></span></div>
+    <div class="heros">
+      <div>
+        <p class="sur">Réflexologie · énergétique chinoise</p>
+        <h2>Tout part des <em>pieds</em>.</h2>
+        <p class="chapo">Le pied en un caractère, comme dans sa formation. Détente profonde, à domicile dans le Var.</p>
+        <span class="btn">Prendre rendez-vous</span>
+        <span class="info">La Crau · Toulon · Hyères</span>
+      </div>
+      <div class="ideo" aria-hidden="true">足<span class="sceau">PF</span></div>
+      <div class="lavis"></div>
+    </div>
+    <div class="contenu">
+      <div>
+        <div class="palette">
+          <div class="pastille" style="background:#F5F1E8;color:#1C1B19"><span>#F5F1E8</span></div>
+          <div class="pastille" style="background:#E3DCCE;color:#1C1B19"><span>#E3DCCE</span></div>
+          <div class="pastille" style="background:#1C1B19;color:#F5F1E8"><span>#1C1B19</span></div>
+          <div class="pastille" style="background:#C23B22;color:#fff"><span>#C23B22</span></div>
+          <div class="pastille" style="background:#8C8576;color:#fff"><span>#8C8576</span></div>
+        </div>
+        <div class="legende-pal"><span>papier</span><span>lavis</span><span>encre</span><span>vermillon</span><span>gris d'encre</span></div>
+      </div>
+      <div class="typo"><p class="t">La petite <em style="font-style:normal;color:#C23B22">histoire</em></p><p class="c">Titres Shippori Mincho · texte Manrope</p></div>
+      <div><h3>L'idée</h3><ul>
+        <li>Sa formation à l'énergétique chinoise : l'idéogramme 足 tracé trait par trait dans l'intro, un sceau vermillon « PF » qui se pose comme signature, des lavis d'encre entre les sections.</li>
+        <li>Épuré, éditorial, beaucoup de blanc. Risque : un air de cliché si on en fait trop, et moins de Var.</li>
+      </ul></div>
+      <div><h3>Accueil</h3><ul>
+        <li>Même plan que A, avec une frise de la petite histoire (papyrus, Eunice Ingham, Mireille Meunier) en rouleau horizontal.</li>
+        <li>Traits qui se dessinent, sceau qui tamponne au défilement, encre qui s'étale sur les photos.</li>
+      </ul></div>
+      <p class="proche">Proche par le niveau : Artic (revue claire, un rouge réservé), Laure Polin (épuré).</p>
+    </div>
+  </article>
+
+  <article class="dir c">
+    <div class="etiquette"><span>C · Cocon du soir</span><span></span></div>
+    <div class="heros">
+      <div>
+        <p class="sur">Réflexologie plantaire · Var</p>
+        <h2>Le temps de <em>souffler.</em></h2>
+        <p class="chapo">Lumière tamisée, plaid, silence. Une séance qui se vit comme une pause.</p>
+        <span class="btn">Prendre rendez-vous</span>
+        <span class="info">Sur rendez-vous, chez vous ou à La Crau</span>
+      </div>
+      <div class="lueur" aria-hidden="true"></div>
+    </div>
+    <div class="contenu">
+      <div>
+        <div class="palette">
+          <div class="pastille" style="background:#231C19;color:#F3EBDD"><span>#231C19</span></div>
+          <div class="pastille" style="background:#3A2C25;color:#F3EBDD"><span>#3A2C25</span></div>
+          <div class="pastille" style="background:#EFE5D6;color:#231C19"><span>#EFE5D6</span></div>
+          <div class="pastille" style="background:#D9A15A;color:#231C19"><span>#D9A15A</span></div>
+          <div class="pastille" style="background:#F3EBDD;color:#231C19"><span>#F3EBDD</span></div>
+        </div>
+        <div class="legende-pal"><span>brun nuit (fond)</span><span>noyer</span><span>lin (tarifs, rdv)</span><span>miel</span><span>texte</span></div>
+      </div>
+      <div class="typo"><p class="t">Une heure <em style="font-style:normal;color:#D9A15A">pour vous</em></p><p class="c">Titres Gloock · texte Karla</p></div>
+      <div><h3>L'idée</h3><ul>
+        <li>La séance comme un cocon : une lueur chaude qui suit le pointeur et réchauffe les photos, le reste du site en clair-obscur.</li>
+        <li>Sections utiles (tarifs, rendez-vous, zone) en lin clair pour rester lisibles.</li>
+      </ul></div>
+      <div><h3>Accueil</h3><ul>
+        <li>Même contenu que A, ordre plus lent : ouverture plein cadre sombre, manifeste mot à mot, séance, tarifs en lin.</li>
+        <li>Lueur WebGL dans l'ouverture, photos qui s'éclairent au défilement, textes en lignes.</li>
+      </ul></div>
+      <p class="proche">Proche par le niveau : Ice Attitude (nuit et braise), Les Plus Hautes Eaux.</p>
+    </div>
+  </article>
+
+</div>
+</body>
+</html>

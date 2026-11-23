@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La réflexologie plantaire : le principe, la carte du pied et sa petite histoire · Patricia Forest</title>
+<meta name="description" content="Le pied, une carte du corps : comment fonctionne la réflexologie plantaire, ses zones réflexes et son histoire, de l&#39;Égypte ancienne à Eunice Ingham.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://patricia-forest-maquette.vercel.app/la-reflexologie">
+<style>:root{--fond:#F3ECE1;--texte:#24211D;--voile-fond:#233A2E;--ouverture-fond:#E8DCCB;--menu-fond:#F3ECE1}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/dm-serif-display-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F3ECE1">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patricia Forest">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="La réflexologie plantaire : le principe, la carte du pied et sa petite histoire · Patricia Forest">
+<meta property="og:description" content="Le pied, une carte du corps : comment fonctionne la réflexologie plantaire, ses zones réflexes et son histoire, de l&#39;Égypte ancienne à Eunice Ingham.">
+<meta property="og:url" content="https://patricia-forest-maquette.vercel.app/la-reflexologie">
+<meta property="og:image" content="https://patricia-forest-maquette.vercel.app/assets/partage/la-reflexologie-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La réflexologie plantaire, le pied comme carte du corps">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Patricia Forest, réflexologie plantaire","url":"https://patricia-forest-maquette.vercel.app/","telephone":"+33647969986","email":"patricia-forest@orange.fr","description":"Réflexologie plantaire à domicile dans onze communes du Var, de Six-Fours à Toulon et Hyères, et au cabinet de La Coloc' à La Crau, sur rendez-vous.","address":{"@type":"PostalAddress","streetAddress":"6 impasse des Palmiers","postalCode":"83260","addressLocality":"La Crau","addressCountry":"FR"},"areaServed":"Var, de Six-Fours-les-Plages à Toulon et Hyères","sameAs":["https://www.facebook.com/ReflexologiePlantaireVar/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><svg class="medaillon medaillon--voile" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+</g></svg><span data-voile-libelle>La réflexologie</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="medaillon medaillon--intro" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-ouverture-objet>
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+<circle class="point-pied" style="--i:0" cx="150" cy="70" r="9"/><circle class="point-pied" style="--i:1" cx="116" cy="158" r="9"/><circle class="point-pied" style="--i:2" cx="112" cy="204" r="9"/><circle class="point-pied" style="--i:3" cx="106" cy="276" r="9"/><circle class="point-pied" style="--i:4" cx="100" cy="404" r="9"/>
+</g></svg>
+  <p class="ouverture-nom">Patricia Forest</p>
+  <p class="ouverture-ligne">Réflexologie plantaire · Var</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Patricia Forest, réflexologie plantaire, accueil" data-libelle="Accueil">
+      <svg class="medaillon medaillon--logo" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+</g></svg><span class="entete-nom"><span>Patricia Forest</span><small>Réflexologie plantaire</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/la-reflexologie" data-libelle="La réflexologie" aria-current="page">La réflexologie</a></li><li><a href="/la-praticienne" data-libelle="La praticienne">La praticienne</a></li><li><a href="/seances-et-tarifs" data-libelle="Séances et tarifs">Séances et tarifs</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/la-reflexologie" class="menu-lien" data-libelle="La réflexologie" aria-current="page">La réflexologie</a></li><li style="--i:2"><a href="/la-praticienne" class="menu-lien" data-libelle="La praticienne">La praticienne</a></li><li style="--i:3"><a href="/seances-et-tarifs" class="menu-lien" data-libelle="Séances et tarifs">Séances et tarifs</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+  <p class="menu-actions"><a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Prendre rendez-vous</a> <a class="bouton bouton--contour" href="tel:+33647969986">Appeler 06 47 96 99 86</a></p>
+  <p class="menu-lieux">À domicile dans le Var · Cabinet à La Crau</p>
+</div>
+<main id="contenu" tabindex="-1">
+<svg class="symboles" width="0" height="0" aria-hidden="true" focusable="false"><defs>
+<symbol id="pied-trait" viewBox="20 30 170 432"><path d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" pathLength="1"/></symbol>
+</defs></svg>
+<section class="ouv-bandeau" id="debut">
+  <div class="conteneur ouv-bandeau-tete">
+    <div>
+      <p class="sur" data-anime="gsap">La réflexologie plantaire</p>
+      <h1 class="ouv-titre" data-anime="gsap"><span class="hl"><span class="hl-in">Le pied,</span></span> <span class="hl"><em class="hl-in">carte du corps.</em></span></h1>
+    </div>
+    <div class="ouv-bandeau-cote" data-anime="gsap">
+      <p class="masque-ecran-tres-bas">Une technique manuelle, née de traditions très anciennes : des pressions précises sur la plante des pieds pour détendre le corps tout entier.</p>
+      <p class="actions"><a href="/rendez-vous#demande" class="bouton" data-libelle="Rendez-vous" data-action-principale>Prendre rendez-vous</a></p>
+      <p class="info-cle" data-info-cle>Séance de 30 minutes ou d&#39;une heure</p>
+    </div>
+  </div>
+  <figure class="media ouv-bandeau-image" data-grok data-iris-centre data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 62%;--cadrage-mobile:50% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/reflexologie-sentier-mobile-640.webp 640w, /assets/images/grok/reflexologie-sentier-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/reflexologie-sentier-1280.webp" srcset="/assets/images/grok/reflexologie-sentier-640.webp 640w, /assets/images/grok/reflexologie-sentier-1280.webp 1280w, /assets/images/grok/reflexologie-sentier-1920.webp 1920w" sizes="100vw" alt="Pieds nus sur un sentier de sable et d&#39;aiguilles de pin, au soleil du matin" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<section class="section principe theme-argile" id="principe">
+  <div class="conteneur principe-grille">
+    <div>
+      <p class="sur">Le principe</p>
+      <h2 data-anime="lignes">Le corps, en miniature</h2>
+    </div>
+    <div class="principe-texte" data-anime="cascade">
+      <p class="principe-grand">Le pied est une représentation miniaturisée du corps humain : chaque organe, chaque fonction y a sa zone réflexe. On retrouve cette idée sur le visage, les oreilles ou les yeux.</p>
+      <p>Par des pressions ciblées et rythmées, la réflexologue localise les tensions et stimule les capacités d&#39;autorégulation du corps.</p>
+      <p class="principe-retenu">Ce qu&#39;on en retient le plus souvent : une détente profonde, revitalisante, un sentiment de mieux-être et d&#39;harmonie.</p>
+    </div>
+  </div>
+</section>
+<section class="section carte-outil" id="carte">
+  <div class="conteneur carte-outil-grille" data-carte-outil>
+    <div class="carte-outil-visuel">
+      <svg class="pieds pieds--outil" viewBox="20 30 380 432" role="img" aria-label="Les deux pieds vus par en dessous, avec leurs zones réflexes" data-effet="zones">
+<defs><clipPath id="semelle-la-reflexologie"><path d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)"/></clipPath></defs>
+<g>
+<g clip-path="url(#semelle-la-reflexologie)"><g class="zone" data-zone="tete"><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)"/></g><g class="zone" data-zone="cou"><ellipse cx="148" cy="124" rx="24" ry="11"/></g><g class="zone" data-zone="poitrine"><path d="M30 128H200V190H30Z"/></g><g class="zone" data-zone="plexus"><circle cx="112" cy="204" r="13"/></g><g class="zone" data-zone="digestion"><path d="M30 218H200V340H30Z"/></g><g class="zone" data-zone="reins"><ellipse cx="110" cy="270" rx="15" ry="20"/><ellipse cx="146" cy="334" rx="10" ry="12"/></g><g class="zone" data-zone="colonne"><path d="M172 126C172 170 152 236 146 272C140 306 148 340 152 382" fill="none" stroke-width="12" stroke-linecap="round"/></g><g class="zone" data-zone="bassin"><path d="M30 364H200V470H30Z"/></g></g>
+<path class="pied-contour" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="pied-contour" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="pied-contour" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="pied-contour" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="pied-contour" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="pied-contour" pathLength="1"/>
+</g>
+<g transform="translate(420 0) scale(-1 1)">
+<g clip-path="url(#semelle-la-reflexologie)"><g class="zone" data-zone="tete"><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)"/></g><g class="zone" data-zone="cou"><ellipse cx="148" cy="124" rx="24" ry="11"/></g><g class="zone" data-zone="poitrine"><path d="M30 128H200V190H30Z"/></g><g class="zone" data-zone="plexus"><circle cx="112" cy="204" r="13"/></g><g class="zone" data-zone="digestion"><path d="M30 218H200V340H30Z"/></g><g class="zone" data-zone="reins"><ellipse cx="110" cy="270" rx="15" ry="20"/><ellipse cx="146" cy="334" rx="10" ry="12"/></g><g class="zone" data-zone="colonne"><path d="M172 126C172 170 152 236 146 272C140 306 148 340 152 382" fill="none" stroke-width="12" stroke-linecap="round"/></g><g class="zone" data-zone="bassin"><path d="M30 364H200V470H30Z"/></g></g>
+<path class="pied-contour" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="pied-contour" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="pied-contour" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="pied-contour" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="pied-contour" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="pied-contour" pathLength="1"/>
+</g>
+<g class="pieds-numeros" aria-hidden="true"><g class="pieds-numero" data-zone-numero="tete"><circle cx="150" cy="66" r="13"/><text x="150" y="71.5" text-anchor="middle">1</text></g><g class="pieds-numero" data-zone-numero="cou"><circle cx="140" cy="124" r="13"/><text x="140" y="129.5" text-anchor="middle">2</text></g><g class="pieds-numero" data-zone-numero="poitrine"><circle cx="84" cy="160" r="13"/><text x="84" y="165.5" text-anchor="middle">3</text></g><g class="pieds-numero" data-zone-numero="plexus"><circle cx="112" cy="204" r="13"/><text x="112" y="209.5" text-anchor="middle">4</text></g><g class="pieds-numero" data-zone-numero="digestion"><circle cx="76" cy="304" r="13"/><text x="76" y="309.5" text-anchor="middle">5</text></g><g class="pieds-numero" data-zone-numero="reins"><circle cx="112" cy="268" r="13"/><text x="112" y="273.5" text-anchor="middle">6</text></g><g class="pieds-numero" data-zone-numero="colonne"><circle cx="168" cy="172" r="13"/><text x="168" y="177.5" text-anchor="middle">7</text></g><g class="pieds-numero" data-zone-numero="bassin"><circle cx="100" cy="412" r="13"/><text x="100" y="417.5" text-anchor="middle">8</text></g></g>
+</svg>
+      <p class="zones-note">Schéma simplifié, d&#39;après les cartes classiques de réflexologie plantaire.</p>
+    </div>
+    <div class="carte-outil-panneau">
+      <p class="sur">À vous</p>
+      <h2 data-anime="lignes">La carte du pied</h2>
+      <p class="carte-aide"><span class="aide-toucher">Touchez une zone du pied ou de la liste.</span><span class="aide-souris">Survolez ou choisissez une zone du pied ou de la liste.</span></p>
+      <ol class="zones-liste" data-zones-liste><li><button type="button" class="zone-bouton" data-zone-bouton="tete" aria-pressed="false"><span class="zone-num">1</span><span class="zone-nom">Tête et sinus</span></button></li><li><button type="button" class="zone-bouton" data-zone-bouton="cou" aria-pressed="false"><span class="zone-num">2</span><span class="zone-nom">Cou et thyroïde</span></button></li><li><button type="button" class="zone-bouton" data-zone-bouton="poitrine" aria-pressed="false"><span class="zone-num">3</span><span class="zone-nom">Poitrine et poumons</span></button></li><li><button type="button" class="zone-bouton" data-zone-bouton="plexus" aria-pressed="false"><span class="zone-num">4</span><span class="zone-nom">Plexus solaire</span></button></li><li><button type="button" class="zone-bouton" data-zone-bouton="digestion" aria-pressed="false"><span class="zone-num">5</span><span class="zone-nom">Système digestif</span></button></li><li><button type="button" class="zone-bouton" data-zone-bouton="reins" aria-pressed="false"><span class="zone-num">6</span><span class="zone-nom">Reins et vessie</span></button></li><li><button type="button" class="zone-bouton" data-zone-bouton="colonne" aria-pressed="false"><span class="zone-num">7</span><span class="zone-nom">Colonne vertébrale</span></button></li><li><button type="button" class="zone-bouton" data-zone-bouton="bassin" aria-pressed="false"><span class="zone-num">8</span><span class="zone-nom">Bas du dos et bassin</span></button></li></ol>
+      <div class="zone-detail" aria-live="polite" data-zone-detail>
+        <div class="zone-fiche" data-zone-fiche="tete" hidden><p class="zone-fiche-nom">Tête et sinus</p><p>Le bout des orteils : la tête, et les sinus sur les petits orteils.</p></div><div class="zone-fiche" data-zone-fiche="cou" hidden><p class="zone-fiche-nom">Cou et thyroïde</p><p>La base du gros orteil répond au cou.</p></div><div class="zone-fiche" data-zone-fiche="poitrine" hidden><p class="zone-fiche-nom">Poitrine et poumons</p><p>L&#39;avant-pied, juste sous les orteils, correspond à la cage thoracique.</p></div><div class="zone-fiche" data-zone-fiche="plexus"><p class="zone-fiche-nom">Plexus solaire</p><p>Au creux, juste sous l&#39;avant-pied.</p></div><div class="zone-fiche" data-zone-fiche="digestion" hidden><p class="zone-fiche-nom">Système digestif</p><p>Le milieu de la voûte : estomac, foie, intestins.</p></div><div class="zone-fiche" data-zone-fiche="reins" hidden><p class="zone-fiche-nom">Reins et vessie</p><p>Au centre de la voûte, et vers le bord intérieur pour la vessie.</p></div><div class="zone-fiche" data-zone-fiche="colonne" hidden><p class="zone-fiche-nom">Colonne vertébrale</p><p>Tout le bord intérieur du pied, du gros orteil au talon.</p></div><div class="zone-fiche" data-zone-fiche="bassin" hidden><p class="zone-fiche-nom">Bas du dos et bassin</p><p>Le talon.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section histoire theme-pin" id="histoire">
+  <div class="conteneur">
+    <div class="histoire-tete">
+      <p class="sur">La petite histoire</p>
+      <h2 data-anime="lignes">Quatre mille ans de pieds</h2>
+      <p data-anime>Des traditions de massage de Chine, d&#39;Inde et d&#39;Égypte jusqu&#39;à la méthode d&#39;aujourd&#39;hui.</p>
+    </div>
+    <div class="frise">
+      <svg class="frise-trait" viewBox="0 0 1000 20" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M0 10H1000" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <ol class="frise-liste" data-anime="cascade"><li class="frise-item"><p class="frise-quand">2330 av. J.-C.</p><h3>Égypte, Chine, Inde</h3><p>Les racines de la réflexologie plongent dans les traditions de massage de ces trois pays ; en Égypte, un papyrus de cette époque en montrerait déjà la pratique.</p></li><li class="frise-item"><p class="frise-quand">Début du XXe siècle</p><h3>La réflexologie occidentale</h3><p>Des médecins américains et européens la développent et la décrivent.</p></li><li class="frise-item"><p class="frise-quand">1889 – 1974</p><h3>Eunice Ingham</h3><p>Kinésithérapeute américaine, elle met au point l&#39;essentiel de la méthode.</p></li><li class="frise-item"><p class="frise-quand">Aujourd&#39;hui</p><h3>Mireille Meunier</h3><p>Praticienne de santé formée en Allemagne (heilpraktiker), elle l&#39;enrichit des principes de l&#39;énergétique traditionnelle chinoise. Patricia a été formée dans son centre.</p></li></ol>
+    </div>
+  </div>
+</section>
+<section class="section cadre" id="cadre">
+  <div class="conteneur cadre-grille">
+    <div>
+      <p class="sur">Ce qu&#39;elle est, et n&#39;est pas</p>
+      <h2 data-anime="lignes">Du bien-être, en complément</h2>
+      <p class="cadre-ffr" data-anime>La profession est représentée par la Fédération française des réflexologues et par le Syndicat professionnel des réflexologues.</p>
+    </div>
+    <ul class="cadre-liste" data-anime="cascade">
+      <li class="cadre-oui">Une technique de bien-être et de gestion du stress.</li>
+      <li class="cadre-oui">Une approche alternative et complémentaire.</li>
+      <li class="cadre-non">Elle ne remplace pas l&#39;avis d&#39;un médecin.</li>
+      <li class="cadre-non">Elle ne remplace pas un traitement en cours.</li>
+    </ul>
+  </div>
+</section>
+<section class="section appel theme-pin" id="appel">
+  <div class="conteneur appel-grille">
+    <div>
+      <p class="sur">Prendre rendez-vous</p>
+      <h2 data-anime="lignes">Et si vous repreniez pied ?</h2>
+      <p class="appel-texte" data-anime>Le plus simple, c&#39;est un appel. Vous pouvez aussi envoyer une demande en ligne, à votre rythme.</p>
+      <p class="actions" data-anime>
+        <a href="/rendez-vous#demande" class="bouton bouton--clair" data-libelle="Rendez-vous" data-survol="magnetique">Faire une demande</a>
+        <a class="bouton bouton--contour" href="tel:+33647969986">06 47 96 99 86</a>
+      </p>
+    </div>
+    <div class="appel-dessin" data-fx="trace" data-visuel><svg class="medaillon medaillon--appel" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+<circle class="point-pied" style="--i:0" cx="150" cy="70" r="9"/><circle class="point-pied" style="--i:1" cx="116" cy="158" r="9"/><circle class="point-pied" style="--i:2" cx="112" cy="204" r="9"/><circle class="point-pied" style="--i:3" cx="106" cy="276" r="9"/><circle class="point-pied" style="--i:4" cx="100" cy="404" r="9"/>
+</g></svg></div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-signature">
+      <svg class="medaillon medaillon--pied" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<g class="medaillon-pied" transform="translate(66 22) scale(.36)">
+<path class="trait-pied" d="M100 452C72 452 54 430 54 398C54 362 60 332 58 298C56 264 46 238 44 206C42 178 46 152 62 140C86 124 126 110 152 114C172 118 178 144 174 170C168 206 150 238 144 272C138 306 146 340 150 374C154 422 132 452 100 452Z" pathLength="1"/><ellipse cx="150" cy="74" rx="23" ry="32" transform="rotate(8 150 74)" class="trait-pied" pathLength="1"/><ellipse cx="113" cy="86" rx="12.5" ry="19" transform="rotate(-4 113 86)" class="trait-pied" pathLength="1"/><ellipse cx="88" cy="97" rx="11.5" ry="17" transform="rotate(-10 88 97)" class="trait-pied" pathLength="1"/><ellipse cx="67" cy="111" rx="10.5" ry="15" transform="rotate(-18 67 111)" class="trait-pied" pathLength="1"/><ellipse cx="51" cy="128" rx="9" ry="12" transform="rotate(-26 51 128)" class="trait-pied" pathLength="1"/>
+</g></svg>
+      <p class="pied-nom">Patricia Forest</p>
+      <p>Réflexologie plantaire · À domicile dans le Var · Cabinet à La Crau</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <ul>
+        <li><a href="tel:+33647969986">06 47 96 99 86</a></li>
+        <li><a href="mailto:patricia-forest@orange.fr">patricia-forest@orange.fr</a></li>
+        <li><a href="https://www.facebook.com/ReflexologiePlantaireVar/" target="_blank" rel="noopener">Retrouvez-moi sur Facebook</a></li>
+      </ul>
+      <p class="pied-adresse">Espace bien-être de La Coloc&#39;, 6 impasse des Palmiers, 83260 La Crau</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/la-reflexologie" data-libelle="La réflexologie" aria-current="page">La réflexologie</a></li><li><a href="/la-praticienne" data-libelle="La praticienne">La praticienne</a></li><li><a href="/seances-et-tarifs" data-libelle="Séances et tarifs">Séances et tarifs</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales (à compléter) · Politique de confidentialité (à compléter)</p>
+    <p>Maquette de présentation : les formulaires sont simulés, rien n&#39;est envoyé.</p>
+    <p>© Patricia Forest</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33647969986">Appeler</a>
+  <a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Rendez-vous</a>
+</div>
+</body>
+</html>

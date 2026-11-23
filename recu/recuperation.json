@@ -1,0 +1,436 @@
+{
+  "site": "https://www.patriciaforest.fr/",
+  "date": "2026-11-23T14:45:57.979Z",
+  "pages": [
+    "https://www.patriciaforest.fr/",
+    "https://www.patriciaforest.fr/contact-1",
+    "https://www.patriciaforest.fr/les-tarifs-1",
+    "https://www.patriciaforest.fr/la-praticienne-1",
+    "https://www.patriciaforest.fr/la-reflexologie-plantaire"
+  ],
+  "images": [
+    {
+      "fichier": "logo.png",
+      "nom": "logo",
+      "origine": "https://static.wixstatic.com/media/451479_f2dca62cc834436790d3b221c21f4bc8~mv2.png",
+      "page": "https://www.patriciaforest.fr/la-praticienne-1",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA PRATICIENNE",
+        "page": "LA PRATICIENNE",
+        "fichier_origine": ""
+      },
+      "largeur": 306,
+      "hauteur": 86,
+      "poids": 5885,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "logo",
+      "marque": "partenaire"
+    },
+    {
+      "fichier": "patricia-forest.jpg",
+      "nom": "patricia-forest",
+      "origine": "https://static.wixstatic.com/media/d99169_ab4464b2850d4053ac7249e6221352da~mv2_d_5052_2908_s_4_2.jpg",
+      "page": "https://www.patriciaforest.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "PATRICIA FOREST",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1151,
+      "largeur_origine": 5052,
+      "hauteur_origine": 2908,
+      "poids": 197061,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "principe.jpg",
+      "nom": "principe",
+      "origine": "https://static.wixstatic.com/media/451479_61e076dab0df4030a55fc923057447d2~mv2_d_4687_3125_s_4_2.jpg",
+      "page": "https://www.patriciaforest.fr/la-reflexologie-plantaire",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Le principe",
+        "page": "LA RÉFLEXOLOGIE PLANTAIRE",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 4687,
+      "hauteur_origine": 3125,
+      "poids": 140341,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "patricia-forest-2.jpg",
+      "nom": "patricia-forest-2",
+      "origine": "https://static.wixstatic.com/media/451479_9a8a449325764929b602b2db5cbc8419~mv2_d_3020_3151_s_4_2.jpg",
+      "page": "https://www.patriciaforest.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "PATRICIA FOREST",
+        "fichier_origine": ""
+      },
+      "largeur": 1917,
+      "hauteur": 2000,
+      "largeur_origine": 3020,
+      "hauteur_origine": 3151,
+      "poids": 330707,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "origine": "https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5_hdpi.png",
+      "page": "https://www.patriciaforest.fr/contact-1",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": "cb_scout5_hdpi"
+      },
+      "largeur": 430,
+      "hauteur": 1670,
+      "poids": 104139,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact.webp",
+      "nom": "contact",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8467!3i6011!4i256!2m3!1e0!2sm!3i804570968!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjF8cy5lOmwudC5mfHAuYzojNDQ0NDQ0LHMudDo1fHAuYzojZjJmMmYyLHMudDoyfHAudjpvZmYscy50OjM3fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozM3xzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6MzR8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM2fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDo0MHxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZhZTdlNyxzLnQ6Mzh8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozOXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6M3xwLnM6LTEwMHxwLmw6NDUscy50OjQ5fHAudjpzaW1wbGlmaWVkLHMudDo3ODV8cy5lOmcuZnxwLnY6b258cC5jOiNmZmI0YjQscy50OjUwfHMuZTpnLmZ8cC52Om9ufHAuYzojZmJkNWQ1LHMudDo1MHxzLmU6bC5pfHAudjpvZmYscy50OjUxfHMuZTpnLmZ8cC52Om9ufHAuYzojZmZkZmRmLHMudDo0fHAudjpvZmYscy50OjY1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVjMGMwLHMudDo2fHAuYzojZDI0YTQzfHAudjpvbixzLnQ6NnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZiYTRhNCxzLnQ6NnxzLmU6bC50LmZ8cC5jOiNmZmZmZmZ8cC52Om9uLHMudDo2fHMuZTpsLnQuc3xwLnY6b2Zm!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=105637",
+      "page": "https://www.patriciaforest.fr/contact-1",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 28030,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-2.webp",
+      "nom": "contact-2",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8468!3i6010!4i256!2m3!1e0!2sm!3i804570968!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjF8cy5lOmwudC5mfHAuYzojNDQ0NDQ0LHMudDo1fHAuYzojZjJmMmYyLHMudDoyfHAudjpvZmYscy50OjM3fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozM3xzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6MzR8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM2fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDo0MHxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZhZTdlNyxzLnQ6Mzh8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozOXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6M3xwLnM6LTEwMHxwLmw6NDUscy50OjQ5fHAudjpzaW1wbGlmaWVkLHMudDo3ODV8cy5lOmcuZnxwLnY6b258cC5jOiNmZmI0YjQscy50OjUwfHMuZTpnLmZ8cC52Om9ufHAuYzojZmJkNWQ1LHMudDo1MHxzLmU6bC5pfHAudjpvZmYscy50OjUxfHMuZTpnLmZ8cC52Om9ufHAuYzojZmZkZmRmLHMudDo0fHAudjpvZmYscy50OjY1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVjMGMwLHMudDo2fHAuYzojZDI0YTQzfHAudjpvbixzLnQ6NnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZiYTRhNCxzLnQ6NnxzLmU6bC50LmZ8cC5jOiNmZmZmZmZ8cC52Om9uLHMudDo2fHMuZTpsLnQuc3xwLnY6b2Zm!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=130630",
+      "page": "https://www.patriciaforest.fr/contact-1",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 26826,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-3.webp",
+      "nom": "contact-3",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8469!3i6010!4i256!2m3!1e0!2sm!3i804570968!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjF8cy5lOmwudC5mfHAuYzojNDQ0NDQ0LHMudDo1fHAuYzojZjJmMmYyLHMudDoyfHAudjpvZmYscy50OjM3fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozM3xzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6MzR8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM2fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDo0MHxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZhZTdlNyxzLnQ6Mzh8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozOXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6M3xwLnM6LTEwMHxwLmw6NDUscy50OjQ5fHAudjpzaW1wbGlmaWVkLHMudDo3ODV8cy5lOmcuZnxwLnY6b258cC5jOiNmZmI0YjQscy50OjUwfHMuZTpnLmZ8cC52Om9ufHAuYzojZmJkNWQ1LHMudDo1MHxzLmU6bC5pfHAudjpvZmYscy50OjUxfHMuZTpnLmZ8cC52Om9ufHAuYzojZmZkZmRmLHMudDo0fHAudjpvZmYscy50OjY1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVjMGMwLHMudDo2fHAuYzojZDI0YTQzfHAudjpvbixzLnQ6NnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZiYTRhNCxzLnQ6NnxzLmU6bC50LmZ8cC5jOiNmZmZmZmZ8cC52Om9uLHMudDo2fHMuZTpsLnQuc3xwLnY6b2Zm!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=75044",
+      "page": "https://www.patriciaforest.fr/contact-1",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 16020,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-4.webp",
+      "nom": "contact-4",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8467!3i6010!4i256!2m3!1e0!2sm!3i804570968!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjF8cy5lOmwudC5mfHAuYzojNDQ0NDQ0LHMudDo1fHAuYzojZjJmMmYyLHMudDoyfHAudjpvZmYscy50OjM3fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozM3xzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6MzR8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM2fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDo0MHxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZhZTdlNyxzLnQ6Mzh8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozOXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6M3xwLnM6LTEwMHxwLmw6NDUscy50OjQ5fHAudjpzaW1wbGlmaWVkLHMudDo3ODV8cy5lOmcuZnxwLnY6b258cC5jOiNmZmI0YjQscy50OjUwfHMuZTpnLmZ8cC52Om9ufHAuYzojZmJkNWQ1LHMudDo1MHxzLmU6bC5pfHAudjpvZmYscy50OjUxfHMuZTpnLmZ8cC52Om9ufHAuYzojZmZkZmRmLHMudDo0fHAudjpvZmYscy50OjY1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVjMGMwLHMudDo2fHAuYzojZDI0YTQzfHAudjpvbixzLnQ6NnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZiYTRhNCxzLnQ6NnxzLmU6bC50LmZ8cC5jOiNmZmZmZmZ8cC52Om9uLHMudDo2fHMuZTpsLnQuc3xwLnY6b2Zm!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=55145",
+      "page": "https://www.patriciaforest.fr/contact-1",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 30986,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-5.webp",
+      "nom": "contact-5",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8469!3i6011!4i256!2m3!1e0!2sm!3i804570968!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjF8cy5lOmwudC5mfHAuYzojNDQ0NDQ0LHMudDo1fHAuYzojZjJmMmYyLHMudDoyfHAudjpvZmYscy50OjM3fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozM3xzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6MzR8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM2fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDo0MHxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZhZTdlNyxzLnQ6Mzh8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozOXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6M3xwLnM6LTEwMHxwLmw6NDUscy50OjQ5fHAudjpzaW1wbGlmaWVkLHMudDo3ODV8cy5lOmcuZnxwLnY6b258cC5jOiNmZmI0YjQscy50OjUwfHMuZTpnLmZ8cC52Om9ufHAuYzojZmJkNWQ1LHMudDo1MHxzLmU6bC5pfHAudjpvZmYscy50OjUxfHMuZTpnLmZ8cC52Om9ufHAuYzojZmZkZmRmLHMudDo0fHAudjpvZmYscy50OjY1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVjMGMwLHMudDo2fHAuYzojZDI0YTQzfHAudjpvbixzLnQ6NnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZiYTRhNCxzLnQ6NnxzLmU6bC50LmZ8cC5jOiNmZmZmZmZ8cC52Om9uLHMudDo2fHMuZTpsLnQuc3xwLnY6b2Zm!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=125536",
+      "page": "https://www.patriciaforest.fr/contact-1",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 17584,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-6.webp",
+      "nom": "contact-6",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8468!3i6011!4i256!2m3!1e0!2sm!3i804570968!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjF8cy5lOmwudC5mfHAuYzojNDQ0NDQ0LHMudDo1fHAuYzojZjJmMmYyLHMudDoyfHAudjpvZmYscy50OjM3fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozM3xzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6MzR8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM2fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDo0MHxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZhZTdlNyxzLnQ6Mzh8cy5lOmcuZnxwLnY6b258cC5jOiNmZWEwYTAscy50OjM1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVhMGEwLHMudDozOXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZlYTBhMCxzLnQ6M3xwLnM6LTEwMHxwLmw6NDUscy50OjQ5fHAudjpzaW1wbGlmaWVkLHMudDo3ODV8cy5lOmcuZnxwLnY6b258cC5jOiNmZmI0YjQscy50OjUwfHMuZTpnLmZ8cC52Om9ufHAuYzojZmJkNWQ1LHMudDo1MHxzLmU6bC5pfHAudjpvZmYscy50OjUxfHMuZTpnLmZ8cC52Om9ufHAuYzojZmZkZmRmLHMudDo0fHAudjpvZmYscy50OjY1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmVjMGMwLHMudDo2fHAuYzojZDI0YTQzfHAudjpvbixzLnQ6NnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZiYTRhNCxzLnQ6NnxzLmU6bC50LmZ8cC5jOiNmZmZmZmZ8cC52Om9uLHMudDo2fHMuZTpsLnQuc3xwLnY6b2Zm!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=50051",
+      "page": "https://www.patriciaforest.fr/contact-1",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 30828,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "praticienne.jpg",
+      "nom": "praticienne",
+      "origine": "https://static.wixstatic.com/media/451479_922a7baee1b642999147a809e5730d1d~mv2_d_4608_3456_s_4_2.jpg",
+      "page": "https://www.patriciaforest.fr/la-praticienne-1",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA PRATICIENNE",
+        "page": "LA PRATICIENNE",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 4608,
+      "hauteur_origine": 3456,
+      "poids": 378853,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "praticienne-2.jpg",
+      "nom": "praticienne-2",
+      "origine": "https://static.wixstatic.com/media/451479_5503de8a17334882802a0b650b07fbd3~mv2.jpeg",
+      "page": "https://www.patriciaforest.fr/la-praticienne-1",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA PRATICIENNE",
+        "page": "LA PRATICIENNE",
+        "fichier_origine": ""
+      },
+      "largeur": 1350,
+      "hauteur": 900,
+      "poids": 117497,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "praticienne-3.jpg",
+      "nom": "praticienne-3",
+      "origine": "https://static.wixstatic.com/media/451479_21442b018b904129a1ca2a13458b2d13~mv2.jpeg",
+      "page": "https://www.patriciaforest.fr/la-praticienne-1",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA PRATICIENNE",
+        "page": "LA PRATICIENNE",
+        "fichier_origine": ""
+      },
+      "largeur": 1350,
+      "hauteur": 900,
+      "poids": 76414,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "praticienne-4.jpg",
+      "nom": "praticienne-4",
+      "origine": "https://static.wixstatic.com/media/451479_8df907234f99455d9f3fc1a360d0973f~mv2.jpeg",
+      "page": "https://www.patriciaforest.fr/la-praticienne-1",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA PRATICIENNE",
+        "page": "LA PRATICIENNE",
+        "fichier_origine": ""
+      },
+      "largeur": 634,
+      "hauteur": 951,
+      "poids": 58241,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "petite-histoire.jpg",
+      "nom": "petite-histoire",
+      "origine": "https://static.wixstatic.com/media/451479_85bf969730a844ff9d4304649d13400b~mv2.jpeg",
+      "page": "https://www.patriciaforest.fr/la-reflexologie-plantaire",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "La petite histoire",
+        "page": "LA RÉFLEXOLOGIE PLANTAIRE",
+        "fichier_origine": ""
+      },
+      "largeur": 934,
+      "hauteur": 1401,
+      "poids": 93435,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "principe-2.jpg",
+      "nom": "principe-2",
+      "origine": "https://static.wixstatic.com/media/451479_4a8baa25c96843668d804abc10f8742c~mv2.jpeg",
+      "page": "https://www.patriciaforest.fr/la-reflexologie-plantaire",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Le principe",
+        "page": "LA RÉFLEXOLOGIE PLANTAIRE",
+        "fichier_origine": ""
+      },
+      "largeur": 1351,
+      "hauteur": 901,
+      "poids": 194043,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "petite-histoire-2.jpg",
+      "nom": "petite-histoire-2",
+      "origine": "https://static.wixstatic.com/media/451479_ecb29b0b4d0846f389b2b458080d39ef~mv2.jpeg",
+      "page": "https://www.patriciaforest.fr/la-reflexologie-plantaire",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "La petite histoire",
+        "page": "LA RÉFLEXOLOGIE PLANTAIRE",
+        "fichier_origine": ""
+      },
+      "largeur": 1350,
+      "hauteur": 900,
+      "poids": 327577,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    }
+  ],
+  "ecartees": [
+    {
+      "url": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.parastorage.com/services/santa-resources/resources/editor/designPanel/panelTypes/default_pin_icon.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://maps.gstatic.com/mapfiles/transparent.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://maps.gstatic.com/mapfiles/api-3/images/drag-cross_hdpi.png",
+      "raison": "26 px de large"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "id": "20261123-155533-complet-cible-partiel",
+ "date": "2026-11-23T15:59:14.191Z",
+ "niveau": "complet",
+ "pages": "/,/404,/la-praticienne,/seances-et-tarifs",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 3,
+ "aRegarder": 13,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

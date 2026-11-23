@@ -1,0 +1,192 @@
+[
+ {
+  "source": "recu/praticienne.jpg",
+  "nom": "patricia-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "largeurs": [
+   640,
+   960,
+   1300
+  ],
+  "cadrage": [
+   57,
+   40
+  ],
+  "mobile": false,
+  "beaute": 4,
+  "alt": "Patricia Forest en séance de réflexologie plantaire, les pieds de la personne posés sur une serviette blanche",
+  "page": "Accueil"
+ },
+ {
+  "source": "recu/praticienne.jpg",
+  "nom": "patricia-seance",
+  "role": "ouverture",
+  "ratio": "3:2",
+  "largeurs": [
+   800,
+   1280,
+   1920
+  ],
+  "cadrage": [
+   55,
+   40
+  ],
+  "mobile": "4:5",
+  "beaute": 4,
+  "alt": "Patricia Forest en séance de réflexologie plantaire, assise face aux pieds de la personne qu'elle reçoit",
+  "page": "La praticienne"
+ },
+ {
+  "source": "recu/grok/accueil-salon.jpg",
+  "nom": "grok/accueil-salon",
+  "page": "Accueil",
+  "emplacement": "la séance, temps 2 : s'installer chez vous",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "mobile": false,
+  "priorite": "Indispensable",
+  "alt": "Chambre provençale au matin : lit aux draps blancs, coussin roulé, rais de soleil des persiennes sur les tomettes",
+  "consigne_scene": "A sunlit Provençal living room in the morning: a low sofa covered with a crisp white cotton towel, a rolled towel cushion at one end where the ankles will rest, a folded natural linen blanket, a small olive branch in a stoneware jug on a low side table, terracotta floor tiles, warm stripes of sunlight falling through half-closed wooden shutters across the scene, empty and peaceful, nobody in the room.",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/seance-connaissance.jpg",
+  "nom": "grok/seance-connaissance",
+  "page": "Accueil",
+  "emplacement": "la séance, temps 1 : faire connaissance",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "mobile": false,
+  "priorite": "Conseillée",
+  "alt": "Tasse de tisane, carnet fermé et crayon sur une petite table près d'une fenêtre",
+  "consigne_scene": "A small round olive-wood side table near a window, a cup of herbal tea in a simple stoneware cup with a little steam, a closed plain linen-covered notebook with a pencil on it, a sprig of rosemary, soft morning light, shallow depth of field, empty and quiet.",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/seance-pieds.jpg",
+  "nom": "grok/seance-pieds",
+  "page": "Accueil",
+  "emplacement": "la séance, temps 3 : relâcher",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "mobile": false,
+  "priorite": "Indispensable",
+  "alt": "Deux pieds nus posés côte à côte sur une serviette blanche, les jambes sous une couverture de lin",
+  "consigne_scene": "Seen from the foot end of a sofa, two relaxed bare feet resting side by side on a white cotton towel draped over a soft cushion, soles gently turned toward the camera, the legs covered by a natural linen blanket up to the ankles, warm soft morning light, very calm, the rest of the room softly blurred, anatomically natural feet with five toes each.",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/accueil-pins.jpg",
+  "source_mobile": "recu/grok/accueil-pins-mobile.jpg",
+  "nom": "grok/accueil-pins",
+  "page": "Accueil",
+  "emplacement": "appel final, photo en fond",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "haut",
+  "priorite": "Indispensable",
+  "alt": "Pins parasols au-dessus d'une mer calme, sentier de sable dans la garrigue, lumière du matin",
+  "consigne_scene": "Umbrella pines on a low pale limestone headland above a calm Mediterranean sea in soft morning light, a narrow sandy footpath winding through low garrigue toward the water, a wide calm clear sky in the upper part of the image, Provençal coast only: no tropical palm trees, no high cliffs, no buildings, no boats.",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/reflexologie-sentier.jpg",
+  "source_mobile": "recu/grok/reflexologie-sentier-mobile.jpg",
+  "nom": "grok/reflexologie-sentier",
+  "page": "La réflexologie",
+  "emplacement": "ouverture, bandeau large sous le titre",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "4:5",
+  "priorite": "Indispensable",
+  "alt": "Pieds nus sur un sentier de sable et d'aiguilles de pin, au soleil du matin",
+  "consigne_scene": "Close view at ground level of two bare feet standing still on a soft sandy path strewn with dry pine needles under umbrella pines, only the feet and the bottom of the ankles visible, a hem of light linen trousers, warm low morning sun from behind with long shadows, anatomically natural feet with five toes each, background softly blurred into golden light.",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/praticienne-racines.jpg",
+  "nom": "grok/praticienne-racines",
+  "page": "Accueil et La praticienne",
+  "emplacement": "la praticienne, image de l'enracinement",
+  "role": "vignette",
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   960,
+   1280
+  ],
+  "mobile": false,
+  "priorite": "Conseillée",
+  "alt": "Racines d'un vieil olivier agrippées à la terre rouge et au calcaire",
+  "consigne_scene": "Close view of the twisted roots and trunk base of a very old olive tree gripping red-brown Provençal earth and pale limestone stones, dry golden grasses, soft low morning light, calm and strong.",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/tarifs-serviettes.jpg",
+  "nom": "grok/tarifs-serviettes",
+  "page": "Séances et tarifs",
+  "emplacement": "ouverture, photo à côté du grand prix",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "largeurs": [
+   640,
+   960,
+   1300
+  ],
+  "mobile": false,
+  "priorite": "Conseillée",
+  "alt": "Pile de serviettes blanches sur un tabouret en olivier, bol de galets, rais de soleil sur un mur blanc",
+  "consigne_scene": "A neatly folded stack of white cotton towels on a light olive-wood stool, a small stoneware bowl of smooth grey and beige pebbles beside it, warm stripes of sunlight from wooden shutters on a limestone-white wall, terracotta floor tiles, minimal and calm, nobody.",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/rdv-porte.jpg",
+  "nom": "grok/rdv-porte",
+  "page": "Rendez-vous",
+  "emplacement": "ouverture, photo à côté du formulaire",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "largeurs": [
+   640,
+   960,
+   1300
+  ],
+  "mobile": false,
+  "priorite": "Conseillée",
+  "alt": "Porte d'entrée provençale entrouverte, seuil en terre cuite au soleil, pots de romarin",
+  "consigne_scene": "A Provençal front door of weathered pale sage-green painted wood standing slightly ajar, a sunlit terracotta doorstep, a pot of rosemary and a pot of lavender beside it, pale limestone wall, warm morning light and soft shadows, nobody, no house number, no letters.",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/page-404.jpg",
+  "source_mobile": "recu/grok/page-404-mobile.jpg",
+  "nom": "grok/page-404",
+  "page": "Page 404",
+  "emplacement": "ouverture de la page introuvable",
+  "role": "404",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "haut",
+  "priorite": "Conseillée",
+  "alt": "Traces de pas nus dans le sable mouillé qui s'arrêtent au bord de l'eau",
+  "consigne_scene": "A trail of bare footprints in smooth wet sand on an empty Mediterranean beach in soft morning light, the footprints stop halfway and a thin sheet of foam slides over the sand, calm pale sea and sky in the upper part, nobody.",
+  "beaute": 4
+ }
+]

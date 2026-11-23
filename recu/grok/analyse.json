@@ -1,0 +1,760 @@
+{
+  "dossier": "/home/claude/patricia-forest-maquette/recu/grok",
+  "date": "2026-11-23T14:56:58.118Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "accueil-pins-mobile.jpg",
+      "nom": "accueil-pins-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 699823,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 95.5,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        54
+      ],
+      "cadrage_css": "48% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 58.8,
+        "bruit": 1.03,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "00600e0d4849b130",
+      "drapeaux": []
+    },
+    {
+      "fichier": "accueil-pins.jpg",
+      "nom": "accueil-pins",
+      "drapeau": null,
+      "largeur": 1800,
+      "hauteur": 1208,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 573270,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.1,
+        "l": 100,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        57
+      ],
+      "cadrage_css": "46% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 54.3,
+        "bruit": 1.11,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "000088362703e461",
+      "drapeaux": []
+    },
+    {
+      "fichier": "accueil-salon.jpg",
+      "nom": "accueil-salon",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 600751,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        55
+      ],
+      "cadrage_css": "57% 55%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 31.1,
+        "bruit": 0.7,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "27253478f1f1f0c4",
+      "drapeaux": []
+    },
+    {
+      "fichier": "page-404-mobile.jpg",
+      "nom": "page-404-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 555047,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.5,
+        "l": 95.5,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        38,
+        29
+      ],
+      "cadrage_css": "38% 29%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 28.7,
+        "bruit": 0.66,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "cfff7f3fbccfcbe5",
+      "drapeaux": []
+    },
+    {
+      "fichier": "page-404.jpg",
+      "nom": "page-404",
+      "drapeau": null,
+      "largeur": 1800,
+      "hauteur": 1208,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 425402,
+      "transparence": false,
+      "sujet": {
+        "x": 40.6,
+        "y": 13.6,
+        "l": 59.4,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        82,
+        32
+      ],
+      "cadrage_css": "82% 32%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 21.9,
+        "bruit": 0.65,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "000000002010d0c8",
+      "drapeaux": [
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "praticienne-racines.jpg",
+      "nom": "praticienne-racines",
+      "drapeau": null,
+      "largeur": 1800,
+      "hauteur": 1208,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 811645,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        41
+      ],
+      "cadrage_css": "44% 41%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 69.6,
+        "bruit": 1.5,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1e48088c46032644",
+      "drapeaux": []
+    },
+    {
+      "fichier": "rdv-porte.jpg",
+      "nom": "rdv-porte",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 718754,
+      "transparence": false,
+      "sujet": {
+        "x": 18.2,
+        "y": 12.5,
+        "l": 77.3,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        61
+      ],
+      "cadrage_css": "64% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 38.5,
+        "bruit": 0.91,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "fc94969496923131",
+      "drapeaux": []
+    },
+    {
+      "fichier": "reflexologie-sentier-mobile.jpg",
+      "nom": "reflexologie-sentier-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 591036,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        40
+      ],
+      "cadrage_css": "49% 40%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 41.4,
+        "bruit": 0.55,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "5f8f1f5a14d4f8e0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "reflexologie-sentier.jpg",
+      "nom": "reflexologie-sentier",
+      "drapeau": null,
+      "largeur": 1800,
+      "hauteur": 1208,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 488951,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        44
+      ],
+      "cadrage_css": "48% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 41.3,
+        "bruit": 0.67,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "716646e06cc2f0fc",
+      "drapeaux": []
+    },
+    {
+      "fichier": "seance-connaissance.jpg",
+      "nom": "seance-connaissance",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 463808,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        47
+      ],
+      "cadrage_css": "48% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 28.9,
+        "bruit": 0.64,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d8b89c94f0c3c969",
+      "drapeaux": []
+    },
+    {
+      "fichier": "seance-pieds.jpg",
+      "nom": "seance-pieds",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 382168,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        48
+      ],
+      "cadrage_css": "47% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 14.6,
+        "bruit": 0.45,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "70caea71d6c6bc52",
+      "drapeaux": []
+    },
+    {
+      "fichier": "tarifs-serviettes.jpg",
+      "nom": "tarifs-serviettes",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 503897,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 21.9,
+        "l": 95.5,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        73
+      ],
+      "cadrage_css": "43% 73%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 29.3,
+        "bruit": 0.6,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0080a0b0e0ed2d01",
+      "drapeaux": [
+        "calme haut"
+      ]
+    }
+  ]
+}

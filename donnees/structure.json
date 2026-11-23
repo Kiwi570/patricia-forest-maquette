@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Patricia Forest, réflexologie plantaire",
+  "url": "https://patricia-forest-maquette.vercel.app/",
+  "telephone": "+33647969986",
+  "email": "patricia-forest@orange.fr",
+  "description": "Réflexologie plantaire à domicile dans onze communes du Var, de Six-Fours à Toulon et Hyères, et au cabinet de La Coloc' à La Crau, sur rendez-vous.",
+  "address": { "@type": "PostalAddress", "streetAddress": "6 impasse des Palmiers", "postalCode": "83260", "addressLocality": "La Crau", "addressCountry": "FR" },
+  "areaServed": "Var, de Six-Fours-les-Plages à Toulon et Hyères",
+  "sameAs": ["https://www.facebook.com/ReflexologiePlantaireVar/"]
+}

@@ -1,6 +1,21 @@
 {
   "siteActuel": "www.patriciaforest.fr",
-  "pagesTypes": ["/", "/la-reflexologie", "/la-praticienne", "/seances-et-tarifs", "/rendez-vous"],
-  "effets": ["trace-pied", "manifeste", "zones", "littoral", "rouleaux"],
-  "grille": { "dispenses": {} }
+  "pagesTypes": [
+    "/",
+    "/la-reflexologie",
+    "/la-praticienne",
+    "/seances-et-tarifs",
+    "/rendez-vous"
+  ],
+  "effets": [
+    "trace-pied",
+    "manifeste",
+    "zones",
+    "littoral",
+    "rouleaux",
+    "souffle"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
 }

@@ -1,4 +1,4 @@
-# Patricia Forest · maquette du site (v1)
+# Patricia Forest · maquette du site (v2)
 
 Maquette de présentation du futur site de Patricia Forest, réflexologue (réflexologie plantaire à domicile dans le Var et au cabinet de La Crau). Direction « Reprendre pied » : sable, vert pin, terre cuite ; titres DM Serif Display, texte Figtree.
 
@@ -7,7 +7,7 @@ Adresse de la maquette : https://patricia-forest-maquette.vercel.app
 ## Pages
 
 - Accueil : « Reprendre pied. », le pied comme carte du corps, une séance en trois temps, la zone (de Six-Fours à Hyères) et le cabinet de La Crau, les tarifs domicile / La Crau, la praticienne, un témoignage, l'appel final et le guide malin offert.
-- La réflexologie : le principe, la carte du pied à toucher, la petite histoire, ce qu'elle est et n'est pas.
+- La réflexologie : le principe, la carte du pied à toucher, « Ralentir, pour commencer » (une minute de respiration guidée), la petite histoire, ce qu'elle est et n'est pas.
 - La praticienne : parcours (Bangkok 1986, EPRP, centre Mireille Meunier, plus de 500 h, FFR), pourquoi les pieds, où elle pratique.
 - Séances et tarifs : 60 € l'heure à domicile, la première séance, la grille, le bon cadeau à composer, les ateliers et pauses en entreprise, les questions pratiques.
 - Rendez-vous : demande en quatre étapes (simulée), la zone et le cabinet, téléphone, e-mail, Facebook.

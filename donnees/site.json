@@ -2,7 +2,7 @@
   "nom": "Patricia Forest",
   "adresse": "https://patricia-forest-maquette.vercel.app",
   "siteActuel": "www.patriciaforest.fr",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "la-reflexologie", "la-praticienne", "seances-et-tarifs", "rendez-vous"],
   "actionEntete": { "page": "rendez-vous", "ancre": "demande" },

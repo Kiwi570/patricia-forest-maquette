@@ -641,3 +641,102 @@ html.js .tarifs-lieu > span[hidden] { display: block; visibility: hidden; }
 html.js .prix-absent { position: absolute; left: 0; bottom: .2em; }
 html.js .prix-absent[hidden] { display: block; visibility: hidden; }
 .tarif.sans-prix .prix-rouleaux { display: inline-flex; visibility: hidden; }
+
+/* ── v2 ─────────────────────────────────────────────── */
+
+/* Chiffres qui roulent : boîte plus haute, plus aucun bout de chiffre voisin visible. */
+.rouleau { height: 1.16em; }
+.rouleau-piste { transform: translateY(calc(var(--n, 0) * -1.16em)); }
+.rouleau-piste span { height: 1.16em; line-height: 1.16; }
+
+/* Pieds : zones en courbes, plus grands sur l'accueil, à toucher. */
+.carte-corps-grille { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); }
+.carte-corps-visuel { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); }
+.pieds .zone { cursor: pointer; }
+.pieds .zone > * { fill: color-mix(in srgb, var(--pin) 6%, transparent); }
+.pieds .zone:nth-child(even) > * { fill: color-mix(in srgb, var(--terre) 8%, transparent); }
+.pieds .zone[data-zone="plexus"] > *, .pieds .zone[data-zone="reins"] > *, .pieds .zone[data-zone="cou"] > * { fill: color-mix(in srgb, var(--terre) 16%, transparent); }
+.pieds .zone.vue > * { fill: color-mix(in srgb, var(--terre) 24%, transparent); }
+.pieds .zone.allumee > * { fill: color-mix(in srgb, var(--terre) 82%, transparent); }
+.pieds .zone[data-zone="colonne"] > *, .pieds .zone[data-zone="colonne"].vue > * { fill: none !important; stroke: color-mix(in srgb, var(--terre) 26%, transparent); }
+.pieds .zone[data-zone="colonne"].allumee > * { fill: none !important; stroke: color-mix(in srgb, var(--terre) 90%, transparent); }
+@media (max-width: 860px) { .carte-corps-grille { grid-template-columns: minmax(0, 1fr); } }
+
+/* Une séance en trois temps : un cadre qui reste à l'écran, les photos se relaient. */
+.seance-scene { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 6vw, 96px); align-items: start; }
+.seance-cadre { position: sticky; top: calc(var(--entete-h) + 6svh); width: min(100%, calc(min(76svh, 660px) * .8)); aspect-ratio: 4 / 5; justify-self: center; border-radius: var(--rayon); overflow: hidden; isolation: isolate; box-shadow: 0 40px 80px -46px rgba(35, 58, 46, .55); background: var(--argile); }
+.seance-photo { position: absolute; inset: 0; border-radius: 0; clip-path: inset(100% 0 0 0); visibility: hidden; transition: clip-path 1.05s cubic-bezier(.77, 0, .18, 1), visibility 0s linear 1.05s; }
+.seance-photo img { transform: scale(1.12); transition: transform 1.5s var(--courbe); }
+.seance-photo--0 { z-index: 1; } .seance-photo--1 { z-index: 2; } .seance-photo--2 { z-index: 3; }
+.seance-photo--0,
+[data-actif="1"] .seance-photo--1, [data-actif="2"] .seance-photo--1, [data-actif="2"] .seance-photo--2 { clip-path: inset(0 0 0 0); visibility: visible; transition-delay: 0s; }
+.seance-photo--0 img, [data-actif="1"] .seance-photo--1 img, [data-actif="2"] .seance-photo--2 img { transform: none; }
+.seance-compteur { position: absolute; left: 16px; bottom: 16px; z-index: 5; margin: 0; padding: 6px 14px; border-radius: 999px; background: var(--fond); font: 400 1.2rem/1.2 var(--police-titres); color: var(--pin); }
+.seance-compteur span { color: var(--terre); }
+.seance-etapes { list-style: none; margin: 0; padding: 0; display: block; }
+.etape { display: flex; flex-direction: column; justify-content: center; min-height: 72svh; max-width: 30em; grid-template-columns: none; gap: 0; }
+.etape h3 { font-size: clamp(1.8rem, 1.3rem + 1.6vw, 2.8rem); }
+.etape p:not(.etape-num) { font-size: clamp(1.08rem, 1rem + .3vw, 1.25rem); color: var(--texte-doux); }
+.etape-num { transition: color .4s; }
+.etape-num { position: relative; padding-bottom: .12em; }
+.etape-num::after { content: ""; position: absolute; left: .04em; bottom: 0; width: 1.4em; height: 3px; border-radius: 2px; background: var(--terre); transform: scaleX(0); transform-origin: 0 50%; transition: transform .6s var(--courbe); }
+.etape.active .etape-num::after { transform: none; }
+html:not(.js) .etape-num, html.secours .etape-num { color: var(--terre) !important; }
+:is(html.secours, html:not(.js)) .seance-cadre { height: auto !important; position: relative; top: auto; display: grid; gap: 12px; aspect-ratio: auto; overflow: visible; box-shadow: none; background: none; }
+:is(html.secours, html:not(.js)) .seance-photo { position: relative; clip-path: none; visibility: visible; aspect-ratio: 4 / 3; border-radius: var(--rayon); }
+:is(html.secours, html:not(.js)) .seance-photo img { transform: none; }
+:is(html.secours, html:not(.js)) .seance-compteur { display: none; }
+@media (max-width: 760px) {
+  .seance-scene { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .seance-cadre { top: calc(var(--entete-h) + 10px); width: 100%; aspect-ratio: auto; height: 40svh; z-index: 3; }
+  .etape { min-height: 58svh; padding-block: 28px; }
+}
+
+/* Carte du Var : plus grande, trajets depuis La Crau. */
+.zone-grille { grid-template-columns: minmax(0, .72fr) minmax(0, 1.28fr); }
+.littoral .trajet { fill: none; stroke: var(--terre); stroke-width: 2.2; stroke-linecap: round; stroke-dasharray: 2 8; animation: fourmis 2.4s linear infinite; }
+@keyframes fourmis { to { stroke-dashoffset: -40; } }
+.littoral .voiture { fill: var(--terre); stroke: #FFFCF7; stroke-width: 2.5; opacity: 0; transition: opacity .6s; }
+.littoral.trajets-partis .voiture { opacity: 1; }
+.littoral text { paint-order: stroke; stroke: #FFFCF7; stroke-width: calc(var(--k, 1) * 4px); stroke-linejoin: round; }
+.littoral .mer-nom { stroke: none; }
+.littoral .zone-domicile { fill: color-mix(in srgb, var(--terre) 20%, transparent); stroke: color-mix(in srgb, var(--terre) 70%, transparent); stroke-width: 1.4; stroke-dasharray: 5 5; }
+html.js:not(.secours):not([data-arrivee="retour"]) .littoral:not(.trace-fini) .trajets { opacity: 0; }
+@media (max-width: 760px) { .zone-grille { grid-template-columns: minmax(0, 1fr); } }
+
+/* Une minute pour vous : le cercle qui respire. */
+.pause-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 6vw, 96px); align-items: center; }
+.pause-note { font-size: .95rem; color: var(--texte-doux); }
+.souffle { display: grid; justify-items: center; gap: 10px; }
+.souffle-cercle { position: relative; display: grid; place-items: center; width: min(100%, 440px); aspect-ratio: 1; }
+.souffle-anneau { position: absolute; inset: 6%; border-radius: 50%; border: 1.5px solid color-mix(in srgb, var(--terre) 45%, transparent); pointer-events: none; }
+.souffle-anneau--2 { inset: 0; border: 1px dashed color-mix(in srgb, var(--pin) 30%, transparent); }
+.souffle-coeur { width: 46%; aspect-ratio: 1; animation: veille 7s ease-in-out infinite; }
+.souffle.actif .souffle-coeur { animation: none; }
+@keyframes veille { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+.medaillon--souffle { width: 100%; height: 100%; filter: drop-shadow(0 20px 40px rgba(35, 58, 46, .18)); }
+.medaillon--souffle .medaillon-disque { fill: var(--fond); }
+.souffle-consigne { margin: 0; min-height: 1.3em; font: 400 clamp(1.8rem, 1.3rem + 1.5vw, 2.6rem)/1.2 var(--police-titres); color: var(--pin); text-align: center; }
+.souffle-compte { margin: 0; font-size: 1rem; color: var(--texte-doux); font-variant-numeric: tabular-nums; }
+@media (max-width: 760px) { .pause-grille { grid-template-columns: minmax(0, 1fr); } .souffle-cercle { width: min(100%, 320px); } }
+
+/* Appel des pages intérieures : le pied se dessine en entier à l'arrivée, puis ses points battent. */
+.medaillon--appel .medaillon-disque { stroke-dasharray: 1 1.2; }
+html.js:not(.secours):not([data-arrivee="retour"]) .appel-dessin:not(.vu) :is(.trait-pied, .medaillon-disque) { stroke-dasharray: 1 1.2; stroke-dashoffset: 1.1; }
+html.js:not(.secours):not([data-arrivee="retour"]) .appel-dessin.vu :is(.trait-pied, .medaillon-disque) { animation: dessin 2.2s var(--courbe) both; }
+@keyframes dessin { from { stroke-dasharray: 1 1.2; stroke-dashoffset: 1.1; } to { stroke-dasharray: 1 1.2; stroke-dashoffset: 0; } }
+.medaillon--appel .point-pied { animation: pouls 2.8s ease-in-out infinite; animation-delay: calc(var(--i) * .35s); }
+
+/* Ateliers et pauses : une carte, les lieux en étiquettes. */
+.groupes-carte { padding: clamp(22px, 3vw, 36px); border-radius: var(--rayon); background: var(--creme); }
+.groupes-lieux { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.groupes-lieux li { padding: 8px 16px; border-radius: 999px; background: var(--argile); font-weight: 600; font-size: 1rem; color: var(--pin); }
+.littoral .mer { fill: color-mix(in srgb, var(--pin) 13%, #FBF7F0); }
+.littoral .houle { stroke: color-mix(in srgb, var(--pin) 16%, transparent); }
+.littoral .terre, .theme-argile .littoral .terre { fill: #FBF6EE; }
+.zone-carte { padding: 10px; }
+@media (max-width: 520px) {
+  .carte-corps-visuel { grid-template-columns: minmax(0, 1fr); justify-items: center; }
+  .carte-corps-visuel .pieds { max-width: 300px; }
+  .carte-corps-visuel .zones-liste { grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; column-gap: 12px; }
+}

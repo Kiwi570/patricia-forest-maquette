@@ -77,7 +77,12 @@ ${tarifs(c, { id: 'tarifs', sur: c.t('seances.grille.sur'), titre: c.t('seances.
       <p class="sur">${c.t('seances.groupes.sur')}</p>
       <h2 data-anime="lignes">${c.t('seances.groupes.titre')}</h2>
     </div>
-    <div>
+    <div class="groupes-carte">
+      <ul class="groupes-lieux" data-anime="cascade">
+        <li>${c.t('seances.groupes.l1')}</li>
+        <li>${c.t('seances.groupes.l2')}</li>
+        <li>${c.t('seances.groupes.l3')}</li>
+      </ul>
       <p data-anime>${c.t('seances.groupes.texte')}</p>
       <p data-anime>${c.lien('rendez-vous', { ancre: 'demande', params: 'lieu=groupe', classe: 'bouton', texte: c.t('seances.groupes.action') })}</p>
     </div>

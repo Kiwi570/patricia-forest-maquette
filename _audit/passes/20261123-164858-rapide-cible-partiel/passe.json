@@ -1,0 +1,16 @@
+{
+ "id": "20261123-164858-rapide-cible-partiel",
+ "date": "2026-11-23T16:49:10.176Z",
+ "niveau": "rapide",
+ "pages": "/",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "2",
+ "echecs": 0,
+ "aRegarder": 6,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

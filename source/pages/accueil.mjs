@@ -55,16 +55,19 @@ ${symboles()}
       <p class="sur">${c.t('accueil.seance.sur')}</p>
       <h2 data-anime="lignes">${c.t('accueil.seance.titre')}</h2>
     </div>
-    <ol class="seance-etapes">
-      ${[['seance-connaissance', 'e1'], ['accueil-salon', 'e2'], ['seance-pieds', 'e3']].map(([img, e], i) => html`<li class="etape" style="--i:${String(i)}">
-        ${c.media({ nom: `grok/${img}`, alt: c.donnees.images[`grok/${img}`].alt, classe: 'etape-photo', sizes: '(max-width: 760px) 92vw, 40vw', attrs: 'data-anime="rideau"' })}
-        <div class="etape-texte">
+    <div class="seance-scene" data-seance>
+      <div class="seance-cadre" data-seance-cadre data-actif="0">
+        ${[['seance-connaissance'], ['accueil-salon'], ['seance-pieds']].map(([img], i) => c.media({ nom: `grok/${img}`, alt: c.donnees.images[`grok/${img}`].alt, classe: `seance-photo seance-photo--${i}`, sizes: '(max-width: 760px) 92vw, 42vw', attrs: `data-seance-photo="${i}"` }))}
+        <p class="seance-compteur" aria-hidden="true"><span data-seance-num>01</span> / 03</p>
+      </div>
+      <ol class="seance-etapes">
+        ${['e1', 'e2', 'e3'].map((e, i) => html`<li class="etape" data-seance-etape="${String(i)}">
           <p class="etape-num" aria-hidden="true">0${String(i + 1)}</p>
           <h3 data-anime="lignes">${c.t(`accueil.seance.${e}t`)}</h3>
           <p data-anime>${c.t(`accueil.seance.${e}`)}</p>
-        </div>
-      </li>`)}
-    </ol>
+        </li>`)}
+      </ol>
+    </div>
     <p class="seance-lien" data-anime>${c.lien('seances-et-tarifs', { classe: 'lien-fleche', texte: html`${c.t('accueil.seance.lien')} →` })}</p>
   </div>
 </section>

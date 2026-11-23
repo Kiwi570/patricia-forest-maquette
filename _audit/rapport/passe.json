@@ -1,16 +1,13 @@
 {
- "id": "20261123-162817-standard-cible-partiel",
- "date": "2026-11-23T16:28:38.411Z",
- "niveau": "standard",
- "pages": "/rendez-vous",
- "etapes": [
-  "fichiers",
-  "mesures"
- ],
- "version": "1",
+ "id": "20261123-164914-complet",
+ "date": "2026-11-23T17:10:30.122Z",
+ "niveau": "complet",
+ "pages": "toutes",
+ "etapes": "toutes",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 4,
- "nonLances": 0,
+ "aRegarder": 26,
+ "nonLances": 1,
  "manquants": 0,
  "statut": "complet"
 }

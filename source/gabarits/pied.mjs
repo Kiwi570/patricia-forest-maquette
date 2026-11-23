@@ -26,7 +26,7 @@ export function symboles() {
 /* Médaillon : disque, pied tracé, cinq points. Sert d'objet d'ouverture (intro, en-tête, voile, premier écran). */
 export function medaillon({ classe = 'medaillon', attrs = '', points = true } = {}) {
   return brut(`<svg class="${classe}" viewBox="0 0 200 200" aria-hidden="true" focusable="false"${attrs ? ' ' + attrs : ''}>
-<circle class="medaillon-disque" cx="100" cy="100" r="98"/>
+<circle class="medaillon-disque" cx="100" cy="100" r="98" pathLength="1"/>
 <g class="medaillon-pied" transform="translate(66 22) scale(.36)">
 <path class="trait-pied" d="${SEMELLE}" pathLength="1"/>${orteils(' class="trait-pied" pathLength="1"')}
 ${points ? POINTS.map(([x, y], i) => `<circle class="point-pied" style="--i:${i}" cx="${x}" cy="${y}" r="9"/>`).join('') : ''}
@@ -36,13 +36,13 @@ ${points ? POINTS.map(([x, y], i) => `<circle class="point-pied" style="--i:${i}
 /* Paire de pieds vus par en dessous, avec leurs zones réflexes (données : donnees/zones.json). */
 const ZONES = {
   tete: () => orteils(),
-  cou: () => '<ellipse cx="148" cy="124" rx="24" ry="11"/>',
-  poitrine: () => '<path d="M30 128H200V190H30Z"/>',
-  plexus: () => '<circle cx="112" cy="204" r="13"/>',
-  digestion: () => '<path d="M30 218H200V340H30Z"/>',
-  reins: () => '<ellipse cx="110" cy="270" rx="15" ry="20"/><ellipse cx="146" cy="334" rx="10" ry="12"/>',
-  colonne: () => '<path d="M172 126C172 170 152 236 146 272C140 306 148 340 152 382" fill="none" stroke-width="12" stroke-linecap="round"/>',
-  bassin: () => '<path d="M30 364H200V470H30Z"/>',
+  cou: () => '<path d="M124 118C132 112 160 110 172 118C172 128 160 134 146 134C134 134 124 128 124 118Z"/>',
+  poitrine: () => '<path d="M30 122H200V182C168 198 124 203 84 198C60 195 42 190 30 184Z"/>',
+  plexus: () => '<circle cx="112" cy="210" r="12"/>',
+  digestion: () => '<path d="M30 192C46 200 70 206 100 207C140 208 172 202 200 190V340C170 350 132 354 100 353C70 352 48 348 30 342Z"/>',
+  reins: () => '<path d="M98 252C106 244 122 246 124 260C126 276 118 290 108 290C98 290 92 278 94 266C95 260 96 255 98 252Z"/><ellipse cx="142" cy="330" rx="11" ry="13"/>',
+  colonne: () => '<path d="M171 128C171 172 152 236 146 272C140 306 148 340 152 384" fill="none" stroke-width="11" stroke-linecap="round"/>',
+  bassin: () => '<path d="M30 352C50 359 72 362 100 362C132 362 170 357 200 349V470H30Z"/>',
 };
 function unPied(zones, id, miroir) {
   const t = miroir ? ' transform="translate(420 0) scale(-1 1)"' : '';
@@ -74,11 +74,11 @@ export function legendeZones(c, { interactive = true } = {}) {
 
 /* Littoral varois simplifié, de Sanary aux salins d'Hyères (repère 800 × 420).
    Communes nommées : seulement celles du site actuel (Six-Fours, Toulon, Hyères, La Crau). */
-const COTE = 'M-10 205C-4 206 16 202 24 214C32 226 29 262 40 277C51 292 73 299 90 306C107 313 127 323 143 321C159 319 175 300 186 292C197 284 198 275 211 272C224 269 246 277 262 276C278 275 303 271 306 268C309 265 289 259 280 256C271 253 264 253 254 252C244 251 230 251 220 250C210 249 200 250 194 246C188 242 181 234 186 228C191 222 209 216 222 212C235 208 251 203 263 205C275 207 283 216 294 222C305 228 318 238 331 243C344 248 358 250 372 252C386 254 402 254 417 256C432 258 446 262 460 262C474 262 489 259 503 258C517 257 534 257 545 256C556 255 565 246 571 252C577 258 580 278 580 290C580 302 578 313 574 322C570 331 552 336 554 342C556 348 574 353 586 356C598 359 611 361 623 360C635 359 651 355 660 352C669 349 679 344 678 340C677 336 659 331 652 326C645 321 640 318 636 312C632 306 632 297 630 290C628 283 618 275 623 268C628 261 646 253 660 248C674 243 692 239 709 236C726 233 743 230 760 228C777 226 802 225 810 224';
+const COTE = 'M-10 205C-4 206 16 202 24 214C32 226 29 262 40 277C51 292 73 299 90 306C107 313 128 322 143 321C158 320 168 308 178 300C188 292 198 280 200 270C202 260 188 251 192 242C196 233 210 220 222 214C234 208 251 204 263 205C275 206 283 216 294 222C305 228 318 238 331 243C344 248 358 250 372 252C386 254 402 254 417 256C432 258 446 262 460 262C474 262 489 259 503 258C517 257 534 257 545 256C556 255 563 248 568 254C573 260 575 279 576 290C577 301 575 312 572 320C569 328 557 335 560 340C563 345 579 350 590 352C601 354 613 355 625 354C637 353 652 349 660 346C668 343 674 339 672 336C670 333 654 332 648 328C642 324 637 318 634 312C631 306 630 297 628 290C626 283 619 275 624 268C629 261 646 253 660 248C674 243 692 239 709 236C726 233 743 230 760 228C777 226 802 225 810 224';
 const TERRE = `${COTE}L810 0L-10 0Z`;
 export function littoral(c, { classe = '' } = {}) {
   const id = `terre-${c.page.cle}`;
-  return brut(`<svg class="littoral ${classe}" viewBox="10 110 780 280" role="img" aria-label="${c.s('accueil.zone.carte')}" data-effet="littoral">
+  return brut(`<svg class="littoral ${classe}" viewBox="20 86 720 292" role="img" aria-label="${c.s('accueil.zone.carte')}" data-effet="littoral">
 <defs>
 <clipPath id="${id}"><path d="${TERRE}"/></clipPath>
 <pattern id="houle-${c.page.cle}" width="18" height="10" patternUnits="userSpaceOnUse"><path d="M0 6C4.5 2 9 2 13.5 6S18 8 18 6" fill="none" class="houle"/></pattern>
@@ -86,8 +86,14 @@ export function littoral(c, { classe = '' } = {}) {
 <rect class="mer" x="0" y="100" width="800" height="300"/>
 <rect x="0" y="100" width="800" height="300" fill="url(#houle-${c.page.cle})"/>
 <path class="terre" d="${TERRE}"/>
-<g clip-path="url(#${id})"><path class="zone-domicile" data-littoral-zone d="M70 172C170 150 300 140 420 146C520 150 620 160 700 176L712 380L56 380Z"/></g>
+<g clip-path="url(#${id})"><path class="zone-domicile" data-littoral-zone d="M58 290C40 250 52 214 92 202C140 190 170 196 200 176C240 150 300 144 360 162C420 180 470 136 520 132C580 128 640 140 676 168C700 190 704 230 690 268L690 400L58 400Z"/></g>
 <path class="cote" d="${COTE}" pathLength="1" data-littoral-cote/>
+<g class="trajets" aria-hidden="true">
+<path id="trajet-ouest-${c.page.cle}" class="trajet" data-trajet d="M506 160C430 150 330 168 262 190C200 206 150 226 100 262"/>
+<path id="trajet-est-${c.page.cle}" class="trajet" data-trajet d="M506 160C540 168 576 184 604 206"/>
+<circle class="voiture" r="6" data-voiture><animateMotion dur="6s" repeatCount="indefinite" begin="indefinite" rotate="auto"><mpath href="#trajet-ouest-${c.page.cle}"/></animateMotion></circle>
+<circle class="voiture" r="6" data-voiture><animateMotion dur="3.2s" repeatCount="indefinite" begin="indefinite" rotate="auto"><mpath href="#trajet-est-${c.page.cle}"/></animateMotion></circle>
+</g>
 <g class="communes" data-littoral-communes>
 <g class="commune" style="--i:0"><circle cx="100" cy="262" r="5"/><text x="112" y="246">Six-Fours</text></g>
 <g class="commune" style="--i:1"><circle cx="262" cy="190" r="5"/><text x="262" y="176" text-anchor="middle">Toulon</text></g>

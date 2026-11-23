@@ -1,6 +1,6 @@
 /* La réflexologie : grand titre puis bandeau photo, le principe, la carte du pied à toucher, la petite histoire, le cadre. */
 import { html } from '../../outils/gabarit.mjs';
-import { pieds, legendeZones, symboles } from '../gabarits/pied.mjs';
+import { pieds, legendeZones, symboles, medaillon } from '../gabarits/pied.mjs';
 import { appel } from '../gabarits/sections.mjs';
 
 export const page = { cle: 'la-reflexologie', fichier: 'la-reflexologie', imagePartage: 'grok/reflexologie-sentier-1280.webp' };
@@ -50,6 +50,27 @@ ${symboles()}
       <div class="zone-detail" aria-live="polite" data-zone-detail>
         ${c.donnees.zones.map((z, i) => html`<div class="zone-fiche" data-zone-fiche="${z.id}"${i === 3 ? '' : html` hidden`}><p class="zone-fiche-nom">${z.nom}</p><p>${z.texte}</p></div>`)}
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section pause theme-argile" id="pause">
+  <div class="conteneur pause-grille">
+    <div class="pause-texte">
+      <p class="sur">${c.t('reflexo.pause.sur')}</p>
+      <h2 data-anime="lignes">${c.t('reflexo.pause.titre')}</h2>
+      <p data-anime>${c.t('reflexo.pause.texte')}</p>
+      <p class="actions" data-anime><button type="button" class="bouton" data-souffle-bouton aria-pressed="false" data-commencer="${c.s('reflexo.pause.commencer')}" data-arreter="${c.s('reflexo.pause.arreter')}" data-recommencer="${c.s('reflexo.pause.recommencer')}">${c.t('reflexo.pause.commencer')}</button></p>
+      <p class="pause-note">${c.t('reflexo.pause.note')}</p>
+    </div>
+    <div class="souffle" data-souffle data-inspirez="${c.s('reflexo.pause.inspirez')}" data-expirez="${c.s('reflexo.pause.expirez')}" data-fin="${c.s('reflexo.pause.fin')}">
+      <div class="souffle-cercle" data-visuel>
+        <span class="souffle-anneau souffle-anneau--1" aria-hidden="true" data-souffle-anneau></span>
+        <span class="souffle-anneau souffle-anneau--2" aria-hidden="true"></span>
+        <div class="souffle-coeur" data-souffle-coeur data-effet="souffle">${medaillon({ classe: 'medaillon medaillon--souffle' })}</div>
+      </div>
+      <p class="souffle-consigne" aria-live="polite" data-souffle-consigne>${c.t('reflexo.pause.pret')}</p>
+      <p class="souffle-compte" aria-hidden="true"><span data-souffle-compte>0</span> / 6</p>
     </div>
   </div>
 </section>

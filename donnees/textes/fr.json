@@ -212,6 +212,19 @@
       "non1": "Elle ne remplace pas l'avis d'un médecin.",
       "non2": "Elle ne remplace pas un traitement en cours.",
       "ffr": "La profession est représentée par la Fédération française des réflexologues et par le Syndicat professionnel des réflexologues."
+    },
+    "pause": {
+      "sur": "Une minute pour vous",
+      "titre": "Ralentir, pour commencer",
+      "texte": "Suivez le cercle : quand il grandit, inspirez ; quand il se resserre, expirez. Six respirations, une minute.",
+      "commencer": "Commencer",
+      "arreter": "Arrêter",
+      "recommencer": "Recommencer",
+      "pret": "Prêt ?",
+      "inspirez": "Inspirez",
+      "expirez": "Expirez",
+      "fin": "Voilà : une minute, rien qu'à vous.",
+      "note": "Un simple moment de calme, à faire où vous voulez."
     }
   },
   "praticienne": {
@@ -276,7 +289,11 @@
       "sur": "En groupe",
       "titre": "Ateliers et pauses bien-être",
       "texte": "Pour des ateliers de groupe (maisons de retraite, associations) ou des pauses bien-être individuelles d'environ 20 minutes en entreprise, Patricia établit un devis sur demande.",
-      "action": "Demander un devis"
+      "action": "Demander un devis",
+      "lieux": "Maisons de retraite · Associations · Entreprises",
+      "l1": "Maisons de retraite",
+      "l2": "Associations",
+      "l3": "Entreprises : pauses d'environ 20 minutes"
     },
     "faq": {
       "sur": "Questions pratiques",

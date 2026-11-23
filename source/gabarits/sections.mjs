@@ -67,7 +67,7 @@ export function appel(c, { id = 'appel' } = {}) {
         <a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a>
       </p>
     </div>
-    <div class="appel-dessin" data-fx="trace" data-visuel>${medaillon({ classe: 'medaillon medaillon--appel' })}</div>
+    <div class="appel-dessin" data-anime data-visuel>${medaillon({ classe: 'medaillon medaillon--appel' })}</div>
   </div>
 </section>`;
 }

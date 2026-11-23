@@ -6,7 +6,7 @@
    - littoral : la côte se trace, la zone se remplit, l'épingle de La Crau tombe ;
    - rouleaux : les prix roulent quand on change de lieu ;
    - bon cadeau qui se compose, demande de rendez-vous en étapes, FAQ qui s'ouvre en douceur. */
-import { demarrer, versObjet, quand, boucle } from './socle/index.js?v=1';
+import { demarrer, versObjet, quand, boucle } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -86,16 +86,20 @@ function zonesDefile() {
   const items = $$('[data-zone-item]', bloc);
   const ordre = items.map((i) => i.dataset.zoneItem);
   let avant = '';
+  const montrer = (id) => {
+    if (id === avant) return;
+    avant = id;
+    allumerZone(svg, id, { garderVues: true, ordre });
+    items.forEach((it) => it.classList.toggle('allumee', it.dataset.zoneItem === id));
+  };
   ST.create({
     trigger: bloc, start: 'top 75%', end: 'bottom 35%', scrub: true,
-    onUpdate: (s) => {
-      const i = Math.min(ordre.length - 1, Math.floor(s.progress * ordre.length));
-      const id = ordre[i];
-      if (id === avant) return;
-      avant = id;
-      allumerZone(svg, id, { garderVues: true, ordre });
-      items.forEach((it) => it.classList.toggle('allumee', it.dataset.zoneItem === id));
-    },
+    onUpdate: (s) => montrer(ordre[Math.min(ordre.length - 1, Math.floor(s.progress * ordre.length))]),
+  });
+  /* Au survol ou au toucher, la zone visée s'allume et son nom aussi. */
+  $$('.zone', svg).forEach((z) => {
+    z.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') montrer(z.dataset.zone); });
+    z.addEventListener('click', () => montrer(z.dataset.zone));
   });
 }
 
@@ -138,8 +142,8 @@ function echelleCartes() {
   const cartes = $$('svg.littoral');
   if (!cartes.length) return;
   const regler = () => cartes.forEach((s) => {
-    const w = s.getBoundingClientRect().width || 780;
-    s.style.setProperty('--k', String(Math.min(3, Math.max(0.8, 780 / w))));
+    const w = s.getBoundingClientRect().width || 720;
+    s.style.setProperty('--k', String(Math.min(3, Math.max(0.8, 720 / w))));
   });
   regler();
   if ('ResizeObserver' in window) new ResizeObserver(regler).observe(cartes[0]);
@@ -150,12 +154,18 @@ function littoral() {
   $$('svg.littoral').forEach((svg) => {
     const cote = $('[data-littoral-cote]', svg), zone = $('[data-littoral-zone]', svg);
     const communes = $$('.commune', svg), epingle = $('.epingle-corps', svg), nomCrau = $('.epingle text', svg);
-    const tl = gsap.timeline({ paused: true, onComplete: () => svg.classList.add('trace-fini') });
+    const trajets = $('.trajets', svg);
+    const partir = () => {
+      svg.classList.add('trace-fini', 'trajets-partis');
+      $$('animateMotion', svg).forEach((a, i) => { try { a.beginElement(); } catch {} });
+    };
+    const tl = gsap.timeline({ paused: true, onComplete: partir });
     tl.fromTo(cote, { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 1.5, ease: 'power2.inOut' })
       .fromTo(zone, { clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 1.1, ease: 'power2.out' }, 0.7)
       .fromTo(communes, { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.15 }, 1.1)
       .fromTo(epingle, { opacity: 0, y: -60 }, { opacity: 1, y: 0, duration: 0.9, ease: 'bounce.out' }, 1.5)
-      .fromTo(nomCrau, { opacity: 0 }, { opacity: 1, duration: 0.4 }, 2.0);
+      .fromTo(nomCrau, { opacity: 0 }, { opacity: 1, duration: 0.4 }, 2.0)
+      .fromTo(trajets, { opacity: 0 }, { opacity: 1, duration: 0.6 }, 2.1);
     ST.create({ trigger: svg, start: 'top 78%', once: true, onEnter: () => tl.play() });
   });
 }
@@ -232,6 +242,9 @@ function bonCadeau() {
       lien.href = u.pathname + u.search + u.hash;
     }
   };
+  const carte = $('.bon-carte', bon);
+  const rebond = () => { if (gsap && carte) gsap.fromTo(carte, { scale: 0.97 }, { scale: 1, duration: 0.6, ease: 'elastic.out(1, .5)' }); };
+  [s, l].forEach((c) => c.addEventListener('change', rebond));
   [s, l, pour, de].forEach((c) => c.addEventListener('input', maj));
   maj();
 }
@@ -286,6 +299,57 @@ function demande() {
   aller(1, false);
 }
 
+/* ── Une séance en trois temps : le cadre suit les étapes ────── */
+function seance() {
+  const scene = $('[data-seance]');
+  if (!scene || !ST) return;
+  const cadre = $('[data-seance-cadre]', scene), num = $('[data-seance-num]', scene);
+  const etapes = $$('[data-seance-etape]', scene);
+  const activer = (i) => {
+    cadre.dataset.actif = String(i);
+    if (num) num.textContent = `0${i + 1}`;
+    etapes.forEach((e, k) => e.classList.toggle('active', k === i));
+  };
+  activer(0);
+  const repere = window.matchMedia('(max-width: 760px)').matches ? '78%' : '62%';
+  etapes.forEach((e, i) => ST.create({
+    trigger: e, start: `top ${repere}`, end: `bottom ${repere}`,
+    onEnter: () => activer(i), onEnterBack: () => activer(i),
+  }));
+}
+
+/* ── Une minute pour vous : le cercle qui respire ────────────── */
+function souffle() {
+  const bloc = $('[data-souffle]'), bouton = $('[data-souffle-bouton]');
+  if (!bloc || !bouton || !gsap) return;
+  const coeur = $('[data-souffle-coeur]', bloc), anneau = $('[data-souffle-anneau]', bloc);
+  const consigne = $('[data-souffle-consigne]', bloc), compte = $('[data-souffle-compte]', bloc);
+  let tl = null;
+  const arreter = (fini) => {
+    if (tl) { tl.kill(); tl = null; }
+    gsap.to([coeur, anneau], { scale: 1, duration: 0.8, ease: 'power2.out' });
+    bloc.classList.remove('actif');
+    bouton.setAttribute('aria-pressed', 'false');
+    bouton.textContent = fini ? bouton.dataset.recommencer : bouton.dataset.commencer;
+    if (fini) consigne.textContent = bloc.dataset.fin;
+  };
+  bouton.addEventListener('click', () => {
+    if (tl) { arreter(false); return; }
+    bloc.classList.add('actif');
+    bouton.setAttribute('aria-pressed', 'true');
+    bouton.textContent = bouton.dataset.arreter;
+    tl = gsap.timeline({ onComplete: () => arreter(true) });
+    for (let k = 0; k < 6; k++) {
+      tl.call(() => { consigne.textContent = bloc.dataset.inspirez; compte.textContent = String(k + 1); })
+        .to(coeur, { scale: 1.42, duration: 4, ease: 'sine.inOut' })
+        .to(anneau, { scale: 1.12, duration: 4, ease: 'sine.inOut' }, '<')
+        .call(() => { consigne.textContent = bloc.dataset.expirez; })
+        .to(coeur, { scale: 1, duration: 6, ease: 'sine.inOut' })
+        .to(anneau, { scale: 1, duration: 6, ease: 'sine.inOut' }, '<');
+    }
+  });
+}
+
 /* ── FAQ : ouverture et fermeture animées ────────────────────── */
 function faq() {
   if (!gsap) return;
@@ -305,7 +369,7 @@ function faq() {
 
 demarrer({
   preparer() {
-    [medaillonHero, manifeste, zonesDefile, zonesOutil, echelleCartes, littoral, tarifs, bonCadeau, demande, faq]
+    [medaillonHero, manifeste, zonesDefile, zonesOutil, seance, echelleCartes, littoral, tarifs, bonCadeau, demande, souffle, faq]
       .forEach((f) => { try { f(); } catch (err) { console.error('[site]', f.name, err); } });
   },
   /* Intro (moins de 3 s) : le pied se trace d'un trait, ses points s'allument en vague, le nom apparaît ;

@@ -95,6 +95,59 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Pages intérieures construites avec l'accueil, dans le même système. Premier audit rapide : 258 échecs, presque tous dus aux rouleaux de prix et au manifeste."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "la-reflexologie",
+        "la-praticienne",
+        "seances-et-tarifs",
+        "rendez-vous",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse de toutes les pages en captures",
+          "budget": 10,
+          "debut": "2026-11-23T17:36:00+01:00",
+          "fin": "2026-11-23T17:46:00+01:00"
+        },
+        {
+          "etape": "améliorations (pieds, séance, carte, respiration, tarifs, appel, groupes)",
+          "budget": 30,
+          "debut": "2026-11-23T17:46:00+01:00",
+          "fin": "2026-11-23T17:44:00+01:00"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "budget": 45,
+          "debut": "2026-11-23T17:44:00+01:00",
+          "fin": "2026-11-23T18:11:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-23T18:11:00+01:00",
+          "fin": "2026-11-23T18:14:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 4,
+        "relances": 1,
+        "corrections": [
+          "numéros d'étape à 3:1",
+          "cadre de la séance sans JavaScript"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande de l'utilisateur : dernier audit complet et passe d'amélioration générale."
     }
   ]
 }
